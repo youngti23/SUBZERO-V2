@@ -27,7 +27,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
   
   conn.reply(
     m.chat,
-    `The user has been successfully unbanned. 🎉\nThey can now use PRINCE MD.`,
+    `The user has been successfully unbanned. 🎉\nThey can now use 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 MD.`,
     m
   );
 };

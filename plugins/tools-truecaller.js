@@ -25,7 +25,7 @@ let handler = async (m, { conn, text }) => {
     m.react("⏰")
 
 
-    json.creator = '🛡️ᑭᖇIᑎᑕᕮ🛡️';
+    json.creator = '🛡️sᴜʙᴢᴇʀᴏ🛡️';
 
     let milf = '';
     for (let prop in json) {

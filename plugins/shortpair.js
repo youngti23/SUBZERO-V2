@@ -16,7 +16,7 @@ let handler = async (_0x2062af, {
     return _0x442ce4.reply(_0x2062af.chat, "Please wait " + _0x46718f + " minute(s) and " + _0x440dc0 + " second(s) before requesting again.", _0x2062af);
   }
   if (!_0x2e65f5[0]) {
-    return _0x442ce4.reply(_0x2062af.chat, "Please provide a phone number.\n*Example:* *.getpair 923092668108*", _0x2062af);
+    return _0x442ce4.reply(_0x2062af.chat, "Please provide a phone number.\n*Example:* *.getpair 263719647303*", _0x2062af);
   }
   const _0xc4e686 = encodeURIComponent(_0x2e65f5[0]);
   const _0x14ca6d = "https://short-pair-for-heorku.onrender.com/pair?phone=" + _0xc4e686;

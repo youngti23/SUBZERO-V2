@@ -13,7 +13,7 @@ let handler = async (_0x14b864, {
     return _0x30d0b0.reply(_0x14b864.chat, "Please wait " + _0x46dcab + " minute(s) and " + _0x39b6a0 + " second(s) before requesting again.", _0x14b864);
   }
   if (!_0x3059b8[0]) {
-    return _0x30d0b0.reply(_0x14b864.chat, "Please provide a phone number.\n*Example:* *.getpair 923092668108*", _0x14b864);
+    return _0x30d0b0.reply(_0x14b864.chat, "Please provide a phone number.\n*Example:* *.getpair 263719647303*", _0x14b864);
   }
   const _0x13ae72 = encodeURIComponent(_0x3059b8[0]);
   const _0x55a745 = "https://prince-session-base64.onrender.com/code?number=" + _0x13ae72;

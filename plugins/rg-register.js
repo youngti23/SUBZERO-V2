@@ -18,7 +18,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   ✳️ Use the command like this:  
   *${usedPrefix + command} name.age*  
 
-  📌 Example: *${usedPrefix + command}* ${name2}.22`;  
+  📌 Example: *${usedPrefix + command}* ${name2}.17`;  
 
   // 📋 Extract and validate name and age
   let [_, name, splitter, age] = text.match(Reg);  

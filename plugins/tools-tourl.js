@@ -15,8 +15,8 @@ let handler = async _0x369a68 => {
           'mediaUrl': null,
           'mediaType': 0x1,
           'showAdAttribution': true,
-          'title': "PRINCE BOT",
-          'body': "Powered by Prince Bot",
+          'title': "SUBZERO BOT",
+          'body': "Powered by Subzero Bot",
           'previewType': 0x0,
           'thumbnail': null,
           'sourceUrl': "https://example.com"
@@ -32,7 +32,7 @@ let handler = async _0x369a68 => {
     _0x2b7ac5 += "*» Shortened* : " + (await shortUrl(_0x5cd935)) + "\n";
     _0x2b7ac5 += "*» Size* : " + formatBytes(_0x464bb8.length) + "\n";
     _0x2b7ac5 += "*» Expiration* : " + (_0x4cf41d ? "Does not expire" : 'Unknown') + "\n\n";
-    _0x2b7ac5 += "> *Powered by Prince Bot*";
+    _0x2b7ac5 += "> *Powered by SubZero Bot*";
     await conn.sendFile(_0x369a68.chat, _0x2720d1, "thumbnail.jpg", _0x2b7ac5, _0x369a68);
     await _0x369a68.react('✅');
   } catch (_0x60552a) {
