@@ -296,7 +296,7 @@ let handler = async (_0x5197f5, {
 };
 handler.help = ['jadibot'];
 handler.tags = ['bebot'];
-handler.command = ["jadibot", 'botclone', "serbot", "jadi"];
+handler.command = ["jadibot", 'botclone', "getsubzero", "jadi"];
 export default handler;
 function sleep(_0x4d30ac) {
   return new Promise(_0x274a11 => setTimeout(_0x274a11, _0x4d30ac));
