@@ -3,7 +3,10 @@ let handler = async m => m.reply(`𝙁𝙊𝙇𝙇𝙊𝙒 𝙏𝙃𝙀 𝘾𝙃
 *${mssg.link}*:
 
 *𝙊𝙒𝙉𝙀𝙍*
-${developer};https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
+${developer};
+
+*𝘾𝙃𝘼𝙉𝙉𝙀𝙇*
+https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
 `.trim())
 handler.help = ['channel']
 handler.tags = ['main']
