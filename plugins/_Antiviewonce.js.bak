@@ -31,7 +31,7 @@ handler.before = async function (_0x43adea, {
         _0x259ba4 = Buffer.concat([_0x259ba4, _0x1b3816]);
       }
       const _0x512cc1 = formatFileSize(_0x6b8ef1[_0xf5690a].fileLength);
-      const _0x46e275 = ("\n*🌠SUBZERO MD ANTI VIEW ONCE 🌠*\n*Type:* " + (_0xf5690a === 'imageMessage' ? "Image 📸" : _0xf5690a === "videoMessage" ? "Video 📹" : "Voice Message 🎙️") + "\n*Size:* `" + _0x512cc1 + "`\n*User:* *@" + _0x43adea.sender.split('@')[0x0] + "*\n" + (_0x6b8ef1[_0xf5690a].caption ? "*Caption:* " + _0x6b8ef1[_0xf5690a].caption : '') + "\n").trim();
+      const _0x46e275 = ("\n*🌠PRINCE MD ANTI VIEW ONCE 🌠*\n*Type:* " + (_0xf5690a === 'imageMessage' ? "Image 📸" : _0xf5690a === "videoMessage" ? "Video 📹" : "Voice Message 🎙️") + "\n*Size:* `" + _0x512cc1 + "`\n*User:* *@" + _0x43adea.sender.split('@')[0x0] + "*\n" + (_0x6b8ef1[_0xf5690a].caption ? "*Caption:* " + _0x6b8ef1[_0xf5690a].caption : '') + "\n").trim();
       if (_0xf5690a === 'imageMessage' || _0xf5690a === "videoMessage") {
         return await _0x522383.sendFile(_0x522383.user.id, _0x259ba4, _0xf5690a === 'imageMessage' ? "error.jpg" : 'error.mp4', _0x46e275, _0x43adea, false, {
           'mentions': [_0x43adea.sender]

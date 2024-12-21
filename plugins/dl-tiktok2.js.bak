@@ -36,13 +36,13 @@ let handler = async (_0x44a051, {
     }
     if (_0x201bc0 && _0x32f39b) {
       _0x44a051.reply("⏳ Media: Audio+Images");
-      let _0x5d6942 = "╭◉ *SUBZERO MD TIKTOK DL*◉\n╠ ○🎥 *Video by*: " + _0xd47652 + " \n╠ ○👍 *Likes*: " + _0xd50a29 + " \n╠ ○💬 *Comments*: " + _0x3e3f3d + " \n╠ ○🎵 *Music*: " + _0x58eb4f + " \n╠ ○📝 *Description*: " + _0x449db6 + "\n╚•";
+      let _0x5d6942 = "╭◉ *PRINCE MD TIKTOK DL*◉\n╠ ○🎥 *Video by*: " + _0xd47652 + " \n╠ ○👍 *Likes*: " + _0xd50a29 + " \n╠ ○💬 *Comments*: " + _0x3e3f3d + " \n╠ ○🎵 *Music*: " + _0x58eb4f + " \n╠ ○📝 *Description*: " + _0x449db6 + "\n╚•";
       await _0x9b9a07.sendFile(_0x44a051.chat, _0x32f39b, "image.jpg", _0x5d6942, _0x44a051);
       await _0x9b9a07.sendFile(_0x44a051.chat, _0x201bc0, "audio.mp3", _0x5d6942, _0x44a051);
     }
     if (_0x201bc0 && !_0x32f39b) {
       _0x44a051.reply("⏳ Media: Audio");
-      let _0x48d737 = "╭◉ *SUBZERO MD TIKTOK DL*◉\n╠ ○🎥 *Audio by*: " + _0xd47652 + " \n╠ ○👍 *Likes*: " + _0xd50a29 + " \n╠ ○💬 *Comments*: " + _0x3e3f3d + " \n╠ ○🎵 *Music*: " + _0x58eb4f + " \n╠ ○📝 *Description*: " + _0x449db6 + "\n╚•";
+      let _0x48d737 = "╭◉ *PRINCE MD TIKTOK DL*◉\n╠ ○🎥 *Audio by*: " + _0xd47652 + " \n╠ ○👍 *Likes*: " + _0xd50a29 + " \n╠ ○💬 *Comments*: " + _0x3e3f3d + " \n╠ ○🎵 *Music*: " + _0x58eb4f + " \n╠ ○📝 *Description*: " + _0x449db6 + "\n╚•";
       await _0x9b9a07.sendFile(_0x44a051.chat, _0x201bc0, "audio.mp3", _0x48d737, _0x44a051);
     }
   } catch (_0x18621c) {

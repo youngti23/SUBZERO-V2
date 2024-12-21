@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       'https://techcrunch.com/wp-content/uploads/2023/11/microsoft-copilot-bing.jpg', 
       [['Go with Gpt', `.gpt ${text}`]], 
       null, 
-      [['Follow Me', `https://github.com/mrfrank-ofc`]], 
+      [['Follow Me', `https://github.com/PRINCE-GDS`]], 
       m
     );
   } catch (error) {

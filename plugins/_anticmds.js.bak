@@ -14,7 +14,6 @@
 © Recoding This Script In Unacceptable⚠
 
 ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
 const antiCmds = ["ping", "runtime", "menu", "play", 'song', "tag", "tagall", "repo", "sobxmd", "sobx", 'gifted', "list", "left", "leave", "apk", "modapk", "video"];
 export async function before(_0x3f9057, {
   conn: _0x46836a,

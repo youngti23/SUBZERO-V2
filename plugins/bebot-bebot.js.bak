@@ -1,3 +1,4 @@
+// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
 
 const {
   useMultiFileAuthState,
@@ -126,7 +127,7 @@ let handler = async (_0x5197f5, {
     let _0x240777 = _0x160730.replace(/[^0-9]/g, '');
     let _0xa47eb9 = '';
     if (!_0x2048cf.existsSync("./bebots/" + _0x495fd6 + "/creds.json")) {
-      _0xa47eb9 = "*sᴜʙᴢᴇʀᴏ ʙᴏᴛ ᴄʀᴇᴀᴛᴏʀ*\n\n1-𝘊𝘰𝘱𝘺 𝘵𝘩𝘦 𝘣𝘦𝘭𝘰𝘸 𝘤𝘰𝘥𝘦\n2-𝘠𝘰𝘶 𝘸𝘪𝘭𝘭 𝘳𝘦𝘤𝘦𝘪𝘷𝘦 𝘢 𝘯𝘰𝘵𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯, 𝘤𝘭𝘪𝘤𝘬 𝘰𝘯 𝘪𝘵, 𝘵𝘩𝘦𝘯 𝘦𝘯𝘵𝘦𝘳 𝘵𝘩𝘦 𝘤𝘰𝘥𝘦 𝘵𝘩𝘦𝘳𝘦\n3- 𝘪𝘵 𝘸𝘪𝘭𝘭 𝘣𝘦𝘤𝘰𝘮𝘦 𝘣𝘰𝘵\nSubZero 𝘪𝘴 𝘴𝘵𝘪𝘭𝘭 𝘢 𝘣𝘰𝘵 𝘥𝘰𝘯'𝘵 𝘸𝘰𝘳𝘳𝘺😊";
+      _0xa47eb9 = "*𝘗𝘙𝘐𝘕𝘊𝘌 𝘉𝘖𝘛 𝘊𝘓𝘖𝘕𝘌𝘙*\n\n1-𝘊𝘰𝘱𝘺 𝘵𝘩𝘦 𝘣𝘦𝘭𝘰𝘸 𝘤𝘰𝘥𝘦\n2-𝘠𝘰𝘶 𝘸𝘪𝘭𝘭 𝘳𝘦𝘤𝘦𝘪𝘷𝘦 𝘢 𝘯𝘰𝘵𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯, 𝘤𝘭𝘪𝘤𝘬 𝘰𝘯 𝘪𝘵, 𝘵𝘩𝘦𝘯 𝘦𝘯𝘵𝘦𝘳 𝘵𝘩𝘦 𝘤𝘰𝘥𝘦 𝘵𝘩𝘦𝘳𝘦\n3- 𝘪𝘵 𝘸𝘪𝘭𝘭 𝘣𝘦𝘤𝘰𝘮𝘦 𝘣𝘰𝘵\nᴘʀɪɴᴄᴇ ᴍᴅ 𝘪𝘴 𝘴𝘵𝘪𝘭𝘭 𝘢 𝘣𝘰𝘵 𝘥𝘰𝘯'𝘵 𝘸𝘰𝘳𝘳𝘺😊";
       let _0x23b423;
       let _0x1df9a1;
       setTimeout(async () => {
@@ -177,7 +178,7 @@ let handler = async (_0x5197f5, {
         global.conns.splice(_0x3852eb, 1);
         if (_0x4b9b7f !== DisconnectReason.connectionClosed) {
           const _0xa8c111 = {
-            text: "*Connected successfully* ✅\n*Your number has now become a SubZero bot clone😊*"
+            text: "*Connected successfully* ✅\n*Your number has now become a Prince bot clone😊*"
           };
           _0x3503fb.sendMessage(_0x5197f5.chat, _0xa8c111, {
             'quoted': _0x5197f5
@@ -205,13 +206,13 @@ let handler = async (_0x5197f5, {
         global.db.data.settings.lastSuccess = Date.now();
         _0x127417();
         const _0x46f162 = {
-          text: _0x390a59[0] ? "*✅ Successfully connected!*" : "*✅ Connected with WhatsApp*\n\n♻️ *Commands related to Sub Bot:*\n» *#stop* _(Pause sub bot)_\n\n» *#serbot [long text]* _(Resume bot if paused or stopped working)_\n\n*Thanks for using ❤️" + name + "*\n\n📢 *Get informed about the latest updates on our official channel:*\nhttps://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D"
+          text: _0x390a59[0] ? "*✅ Successfully connected!*" : "*✅ Connected with WhatsApp*\n\n♻️ *Commands related to Sub Bot:*\n» *#stop* _(Pause sub bot)_\n\n» *#serbot [long text]* _(Resume bot if paused or stopped working)_\n\n*Thanks for using ❤️" + name + "*\n\n📢 *Get informed about the latest updates on our official channel:*\nhttps://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11"
         };
         await _0x3503fb.sendMessage(_0x5197f5.chat, _0x46f162, {
           'quoted': _0x5197f5
         });
         const _0x43d590 = {
-          text: "*If you like this bot give star to my repo*\nhttps://github.com/mrfrank-ofc/SUBZERO-MD\nhttps://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D"
+          text: "*If you like this bot give star to my repo*\nhttps://github.com/DASTAGHIR/PRINCEMD\nhttps://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11"
         };
         await _0x3503fb.sendMessage(_0x5197f5.chat, _0x43d590, {
           'quoted': _0x5197f5

@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/*import fetch from 'node-fetch';
 
 const maxRetries = 3;
 const retryDelay = 10000; // jeda 10 detik
@@ -403,7 +403,7 @@ ADZ DZAARIYAT خط میں 60 آیات پر مشتمل ہے ، جس میں مکک
     if (isNaN(args[0]) || isNaN(args[1])) throw `contoh:\n${usedPrefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja\n\n${listsurah}`;
     */
 
-    await m.reply(wait);
+  /*  await m.reply(wait);
 
     const mes = `💞𝗔𝗟-𝗤𝗨𝗥𝗔𝗡💞\n
 *${api[args[0] - 1].ayahs[args[1] - 1].text.ar}*
@@ -424,3 +424,4 @@ handler.tags = ['quran']
 handler.command = ['alquran']
 
 export default handler;
+*/

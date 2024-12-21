@@ -618,8 +618,8 @@ default:
 🗨️ *\`${usedPrefix + command} chatbot\`*  
    ➤ Start a conversation with the bot
 
-🤖 *\`${usedPrefix + command} subzerochat\`* or *\`${usedPrefix}suhzerogpt\`*  
-   ➤ Chat with SubZero (ask anything!)
+🤖 *\`${usedPrefix + command} princechat\`* or *\`${usedPrefix}princegpt\`*  
+   ➤ Chat with Princebot (ask anything!)
 
 ━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
 

@@ -18,7 +18,7 @@ const handler = async (_0x44b6d0, {
           'body': "What are you looking for, dummy?",
           'previewType': 0x0,
           'thumbnail': princeImg.getRandom(),
-          'sourceUrl': "https://github.com/mrfrank-ofc/SUBZERO-V2"
+          'sourceUrl': "https://github.com/PRINCE-GDS/prince-ds"
         }
       }
     });

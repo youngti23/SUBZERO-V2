@@ -32,11 +32,11 @@ let handler = async (_0x1f942b, {
           'mediaUrl': null,
           'mediaType': 0x1,
           'description': null,
-          'title': "SUBZERI",
+          'title': "Prince",
           'body': " 💫 𝐒𝐮𝐩𝐞𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭  ",
           'previewType': 0x0,
           'thumbnail': princeImg.getRandom(),
-          'sourceUrl': "https://github.com/mrfrank-ofc"
+          'sourceUrl': "https://github.com/PRINCE-GDS/prince-ds"
         }
       }
     });
@@ -60,11 +60,11 @@ let handler = async (_0x1f942b, {
                     'mediaUrl': null,
                     'mediaType': 0x1,
                     'description': null,
-                    'title': "suhzero",
+                    'title': "Prince",
                     'body': " 💫 𝐒𝐮𝐩𝐞𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 ",
                     'previewType': 0x0,
                     'thumbnail': princeImg.getRandom(),
-                    'sourceUrl': "https://github.com/mrfrank-ofc"
+                    'sourceUrl': "https://github.com/PRINCE-GDS/prince-ds"
                   }
                 }
               });
@@ -83,11 +83,11 @@ let handler = async (_0x1f942b, {
           'mediaUrl': null,
           'mediaType': 0x1,
           'description': null,
-          'title': "SUBZERO❣️",
+          'title': "Prince❣️",
           'body': " 💫 𝐒𝐮𝐩𝐞𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭  ",
           'previewType': 0x0,
           'thumbnail': princeImg.getRandom(),
-          'sourceUrl': 'https://github.com/mrfrank-ofc'
+          'sourceUrl': 'https://github.com/PRINCE-GDS/prince-ds'
         }
       }
     });
@@ -171,7 +171,7 @@ let handler = async (_0x1f942b, {
                     'mediaUrl': null,
                     'mediaType': 0x1,
                     'description': null,
-                    'title': 'subzero❣️',
+                    'title': 'Prince❣️',
                     'body': " 💫 𝐒𝐮𝐩𝐞𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 ",
                     'previewType': 0x0,
                     'thumbnail': img.getRandom(),
@@ -194,11 +194,11 @@ let handler = async (_0x1f942b, {
           'mediaUrl': null,
           'mediaType': 0x1,
           'description': null,
-          'title': "subzero❣️",
+          'title': "Prince❣️",
           'body': " 💫 𝐒𝐮𝐩𝐞𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 ",
           'previewType': 0x0,
           'thumbnail': princeImg.getRandom(),
-          'sourceUrl': "https://github.com/mrfrank-ofc"
+          'sourceUrl': "https://github.com/PRINCE-GDS/prince-ds"
         }
       }
     });
