@@ -8,7 +8,7 @@ import 'fs';
 import _0x458c1f from 'moment-timezone';
 import { xpRange } from '../lib/levelling.js';
 const _0x2b762d = {
-  quran: "🕋 QURAN CMDS"
+  quran: "🕋 BIBLE CMDS"
 };
 _0x2b762d.study = "📚 STUDY CMDS";
 _0x2b762d.downloader = "📥 DOWNLOADERS CMDS";
@@ -36,11 +36,11 @@ let handler = async (_0xb33ad2, {
 }) => {
   let _0x4ca52b = ucapan();
   const _0x170f1d = {
-    'before': ("「 *`%botname`* 」\n \n*Hey!* 👋🏻 *%name*\n \n \n*• DATE:*  ```%fecha```\n*• TIME:*  ```%hora (🇿🇼)``` \n*• UPTIME:*  ```%muptime```\n*• " + _0x4ca52b + "*\n\n\n ┌─▢ *❄SUBZERO MD COMMANDS❄* ▢─┐  \n│  \n├ ✧ ⛪ *" + _0x2867e9 + "Biblemenu*  \n├ ✧ 📚 *" + _0x2867e9 + "Studymenu*  \n├ ✧ 👑 *" + _0x2867e9 + "Ownermenu*  \n├ ✧ 💌 *" + _0x2867e9 + "Botmenu*  \n├ ✧ 🧬 *" + _0x2867e9 + "Groupmenu*  \n├ ✧ 📥 *" + _0x2867e9 + "DLmenu*  \n├ ✧ 🧰 *" + _0x2867e9 + "Toolsmenu*  \n├ ✧ 🎨 *" + _0x2867e9 + "Stickermenu*  \n├ ✧ 🎉 *" + _0x2867e9 + "Funmenu*  \n├ ✧ 🎮 *" + _0x2867e9 + "Gamemenu*  \n├ ✧ 🎩 *" + _0x2867e9 + "Logomenu*  \n├ ✧ 📃 *" + _0x2867e9 + "list*\n├ ✧ 📜 *" + _0x2867e9 + "Menu2*    \n│  \n└───────── ★ ★ ★ \n%readmore\n").trimStart(),
-    'header': "*`◉ %category`*",
-    'body': " ║\n╠ ○ *%cmd* %islimit %isPremium",
-    'footer': "╚• \n\n",
-    'after': "*sᴜʙᴢᴇʀᴏ ᴍᴅ*\n"
+    'before': ("「 *`%botname`* 」\n \n*Hey!* 👋🏻 *%name*\n \n \n*• DATE:*  ```%fecha```\n*• TIME:*  ```%hora (🇿🇼)``` \n*• UPTIME:*  ```%muptime```\n\n\n ─▢ *❄SUBZERO MD COMMANDS❄* ▢─  \n│  \n├ ✧ ⛪ *" + _0x2867e9 + "Biblemenu*  \n├ ✧ 📚 *" + _0x2867e9 + "Studymenu*  \n├ ✧ 👑 *" + _0x2867e9 + "Ownermenu*  \n├ ✧ 💌 *" + _0x2867e9 + "Botmenu*  \n├ ✧ 🧬 *" + _0x2867e9 + "Groupmenu*  \n├ ✧ 📥 *" + _0x2867e9 + "DLmenu*  \n├ ✧ 🧰 *" + _0x2867e9 + "Toolsmenu*  \n├ ✧ 🎨 *" + _0x2867e9 + "Stickermenu*  \n├ ✧ 🎉 *" + _0x2867e9 + "Funmenu*  \n├ ✧ 🎮 *" + _0x2867e9 + "Gamemenu*  \n├ ✧ 🎩 *" + _0x2867e9 + "Logomenu*  \n├ ✧ 📃 *" + _0x2867e9 + "list*\n├ ✧ 📜 *" + _0x2867e9 + "Menu2*    \n│  \n└───────── ★ ★ ★ \n%readmore\n").trimStart(),
+    'header': "*`✲ %category`*",
+    'body': "╠ ▢ *%cmd* %islimit %isPremium",
+    'footer': "╚══════════◈ \n\n",
+    'after': "*sᴜʙᴢᴇʀᴏ ᴍᴅ *\n"
   };
   try {
     _0xb33ad2.react('⏳');
@@ -119,10 +119,10 @@ let handler = async (_0xb33ad2, {
     }
     _0x1e3ebb.menu = _0x1e3ebb.menu ? _0x1e3ebb.menu : {};
     let _0x33ba78 = _0x1e3ebb.menu.before || _0x170f1d.before;
-    let _0x589210 = _0x1e3ebb.menu.header || "*`◉ %category`*";
-    let _0x2609a0 = _0x1e3ebb.menu.body || " ║\n╠ ○ *%cmd* %islimit %isPremium";
-    let _0x432f3c = _0x1e3ebb.menu.footer || "╚• \n\n";
-    let _0x3cf634 = _0x1e3ebb.menu.after || (_0x1e3ebb.user.jid == _0x1e3ebb.user.jid ? '' : "Powered by https://wa.me/" + _0x1e3ebb.user.jid.split`@`[0]) + "*ᴘʀɪɴᴄᴇ ᴍᴅ*\n";
+    let _0x589210 = _0x1e3ebb.menu.header || "*`✲ %category`*";
+    let _0x2609a0 = _0x1e3ebb.menu.body || "╠ ▢ *%cmd* %islimit %isPremium";
+    let _0x432f3c = _0x1e3ebb.menu.footer || "╚════════════◈ \n\n";
+    let _0x3cf634 = _0x1e3ebb.menu.after || (_0x1e3ebb.user.jid == _0x1e3ebb.user.jid ? '' : "Powered by https://wa.me/" + _0x1e3ebb.user.jid.split`@`[0]) + "*sᴜʙᴢᴇʀᴏ ᴍᴅ*\n";
     let _0x5c82f9 = [_0x33ba78, ...Object.keys(_0x2b762d).map(_0x3bf470 => {
       return _0x589210.replace(/%category/g, _0x2b762d[_0x3bf470]) + "\n" + [..._0x21cd1f.filter(_0x5103fb => _0x5103fb.tags && _0x5103fb.tags.includes(_0x3bf470) && _0x5103fb.help).map(_0x251615 => {
         return _0x251615.help.map(_0x307bfe => {
