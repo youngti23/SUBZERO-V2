@@ -8,7 +8,7 @@ let handler = async (_0x5cf5e9, {
 }) => {
   let _0x517d4d;
   if (!_0x1219b6[0]) {
-    _0x517d4d = "https://github.com/mrfrank-ofc/SUBZERO-V2";
+    _0x517d4d = "https://github.com/PRINCE-GDS/PRINXE-MD";
   } else {
     if (!regex.test(_0x1219b6[0])) {
       throw "⚠️ link incorrect";
@@ -27,5 +27,5 @@ let handler = async (_0x5cf5e9, {
 };
 handler.help = ["gitprince <url>"];
 handler.tags = ["downloader"];
-handler.command = ["gitrepo", "gitsubzero"];
+handler.command = ["gitp", "gitprince"];
 export default handler;

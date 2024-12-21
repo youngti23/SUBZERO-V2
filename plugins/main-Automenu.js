@@ -9,11 +9,11 @@ const defaultMenu = {
   before: `
 ✨🌟 *WELCOME TO ${botname}* 🌟✨
 ╭━━━⊱ 💫 *USER* 💫 ⊱━━━
-🖋️ *NAME:* _%name_
+⭕ *NAME:* _%name_
 ╰━━━━━━━━━━━━━━
 
 ╭━━━⊱ ⚙️ *INFO* ⚙️ ⊱━━━
-🛡️ *MODE:* _%mode_
+❄ *MODE:* _%mode_
 📱 *PLATFORM:* _%platform_
 💻 *TYPE:* _NODEJS_
 🔑 *PREFIX:* [ *%_p* ]
@@ -24,12 +24,12 @@ const defaultMenu = {
 📢 *%ucpn*
 
 ╭━━━⊱ 🔧 *COMMANDS* 🔧 ⊱━━━
-│ 🔢 _*%totalfeatures* COMMANDS_
+│ ❄ _*%totalfeatures* COMMANDS_
 ╰━━━━━━━━━━━━━━━━━━
 %readmore
 `.trimStart(),
-  header: "╭━━━⊱ *`📳%CATEGORY📳`* ⊱━━━",
-  body: "│💫 _*%CMD*_ %isPremium %islimit ",
+  header: "╭━━━▢ *`🚀%CATEGORY🚀`* ▢━━━",
+  body: "│❄️ _*%CMD*_ %isPremium %islimit ",
   footer: "╰━━━━━━━━━━━━━━━━━",
   after: "\n%me",
 };

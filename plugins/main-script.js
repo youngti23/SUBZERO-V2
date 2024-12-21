@@ -20,11 +20,11 @@ let handler = async function (_0x5b1b49, {
   let _0x1d182b = ucapan();
   try {
     await _0x5b1b49.react('⏳');
-    const [, _0x3e6fee, _0x1894f9] = "https://github.com/PRINCE-GDS/PRINXE-MD".match(/github\.com\/([^/]+)\/([^/]+)/);
+    const [, _0x3e6fee, _0x1894f9] = "https://github.com/mrfrank-ofc/SUBZERO-V2".match(/github\.com\/([^/]+)\/([^/]+)/);
     const _0x1810f5 = await _0x46171c.get("https://api.github.com/repos/" + _0x3e6fee + '/' + _0x1894f9);
     if (_0x1810f5.status === 200) {
       const _0x1886bd = _0x1810f5.data;
-      let _0x44bc77 = "𝗛𝗘𝗬!👋🏻 *" + _0x516212 + "*                         " + _0x1d182b + "\n\n╭◉🪀 *`𝗣𝗥𝗜𝗡𝗖𝗘-𝗕𝗢𝗧`*\n💻𝗡𝗔𝗠𝗘: ```" + _0x1886bd.name + "```\n⭐𝗦𝗧𝗔𝗥𝗦: ```" + _0x1886bd.stargazers_count + "```\n💌𝗙𝗢𝗥𝗞𝗦: ```" + _0x1886bd.forks_count + "```\n⏰𝗨𝗣𝗧𝗜𝗠𝗘: ```" + _0x3d2ce5 + "```\n╚•\n 𝗗𝗘𝗩: https://wa.me/message/DCAK67ON3XVOG1\n╚•\n 𝗨𝗥𝗟: " + _0x1886bd.html_url + "\n╚•\n 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡: ```" + _0x1886bd.description + "```\n╚•";
+      let _0x44bc77 = "𝗛𝗘𝗬!👋🏻 *" + _0x516212 + "*                         " + _0x1d182b + "\n\n╭◉🪀 *`𝗦𝗨𝗕𝗭𝗘𝗥𝗢-𝗕𝗢𝗧`*\n💻𝗡𝗔𝗠𝗘: ```" + _0x1886bd.name + "```\n⭐𝗦𝗧𝗔𝗥𝗦: ```" + _0x1886bd.stargazers_count + "```\n💌𝗙𝗢𝗥𝗞𝗦: ```" + _0x1886bd.forks_count + "```\n⏰𝗨𝗣𝗧𝗜𝗠𝗘: ```" + _0x3d2ce5 + "```\n╚•\n 𝗗𝗘𝗩: https://wa.me/263719637303\n╚•\n 𝗨𝗥𝗟: " + _0x1886bd.html_url + "\n╚•\n 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡: ```" + _0x1886bd.description + "```\n╚•";
       await _0x5b1b49.react('✅');
       const _0x437000 = {
         newsletterJid: "120363199257221654@newsletter",

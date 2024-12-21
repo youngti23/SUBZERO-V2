@@ -13,14 +13,14 @@ let handler = async (_0x25f258, {
     'mimetype': "audio/mp4",
     'ptt': true,
     'waveform': [100, 0, 100, 0, 100, 0, 100],
-    'fileName': "Prince",
+    'fileName': "SubZero MD",
     'contextInfo': {
       'mentionedJid': [_0x25f258.sender],
       'externalAdReply': {
-        'title': "🎗️ᴘʀɪɴᴄᴇ ᴍᴅ ɪs ᴀʟɪᴠᴇ ʀᴇᴄɪᴛᴇ ᴅᴀʀᴏᴏᴅ sʜᴀʀᴇᴇғ🎗️",
-        'body': "PRINCE BOT",
+        'title': "❄️sᴜʙᴢᴇʀᴏ ᴍᴅ ɪs ᴀʟɪᴠᴇ ",
+        'body': "SUBZERO BOT",
         'thumbnail': _0x4c466f.readFileSync("./lib/source/drd.jpg"),
-        'sourceUrl': 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+        'sourceUrl': 'https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO',
         'mediaType': 0x1,
         'renderLargerThumbnail': true
       }
