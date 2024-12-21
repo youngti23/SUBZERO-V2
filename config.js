@@ -9,23 +9,23 @@ import moment from 'moment-timezone'
 import dotenv from 'dotenv'
 
 
-//💌------------------------------------------💌
+//---------❄️ＭＲ ＦＲＡＮＫ❄️-----------
 
-//BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
+//ＮＯＴＩＣＥ: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +923092668108
+global.botNumberCode = "" //Example: +263719647303
 global.confirmCode = "" 
 
 
-//💌------------------------------------------💌
+//--------❄️ＭＲ ＦＲＡＮＫ❄️----------
 
 
 //Change to false to use the Bot from the same number as the Bot.
 global.isBaileysFail = false
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
+//global.pairingNumber = "" //put your bot number here
 global.mods = ['263719647303'] 
 global.prems = ['263719647303']
 global.allowed = ['263719647303']
@@ -41,17 +41,16 @@ global.baileys = '@whiskeysockets/baileys'
 global.apis = 'https://deliriussapi-oficial.vercel.app'
 global.openai_key = 'sk-...OzYy' /* Get your ApiKey at this link: https://platform.openai.com/account/api-keys */
 global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
-//💌------------------------------------------💌
+//🧠❄--------------------------🧠❄️
 
 
 
-//💌------------------------------------------💌
+//🧠❄️----------------------------🧠❄️
 //CONFIG VARS. Do not touch them⚠️
-
   global.vidcap = process.env.DL_MSG
 
 
-//💌------------------------------------------💌
+//🧠❄️----------------------🧠❄️
 
 global.cheerio = cheerio
 global.fs = fs
@@ -61,7 +60,7 @@ global.moment = moment
 
 
 
-//💌------------------------------------------💌
+//🧠❄️---------------------------🧠❄️
 // APIS
 global.APIs = {
   // API Prefix
@@ -78,7 +77,7 @@ global.APIs = {
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-// 💌------------------------------------------💌
+// 🧠❄️--------------------------🧠❄️
 
 
 
@@ -95,14 +94,14 @@ global.APIKeys = {
    
 }
 
-//💌------------------------------------------💌
+//🧠❄️---------------------------🧠❄️
 
 
 
 // Bot Images 
 global.imagen1 = fs.readFileSync("./lib/source/menus/img1.jpg")
 global.imagen2 = fs.readFileSync("./lib/source/menus/img2.jpg")
-//💌------------------------------------------💌
+//🧠❄️------------------------------------------🧠❄️
 
 
 
@@ -116,36 +115,37 @@ global.pimg = [imag1, imag2, imag3]
 
 // Randome
 global.princeImg = [imagen1, imagen2]
-//💌------------------------------------------💌
+//🧠❄️------------------------🧠❄️
 
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
-//💌------------------------------------------💌
+global.developer = 'https://wa.me/message/KJMSM76DFAR4H1' //contact Mr Frank
+//🧠❄️----------------------🧠❄️
 
 
 
 //Sticker WM
 global.wm = process.env.BOT_NAME
 global.botname = process.env.BOT_NAME
-global.princebot = '❄️SUBZERO MD V2❄️'
+global.princebot = 'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'
 global.packname = process.env.PACK_NAME
 global.author = 'Mr Frank' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
+global.princeig = 'https://www.instagram.com/mrfrankofc' 
+global.princegp = 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
 global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
 global.thumb = fs.readFileSync('./lib/source/Prince.png')
-//💌------------------------------------------💌
+
+//🧠❄️---------------------------🧠❄️
 
 
 
 //Reactions
-global.wait = '*`⏰ 𝙷𝚘𝚕𝚍 𝙾𝚗 𝙿𝚛𝚘𝚌𝚎𝚜𝚜𝚒𝚗𝚐...`*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*`⏰ ʜᴏʟᴅ ᴏɴ sᴜʙᴢᴇʀᴏ ɪs ᴘʀɪᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ...`*'
+global.imgs = '*🖼️ _ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
 global.done = '✅'
@@ -154,7 +154,7 @@ global.xmoji = '🌀'
 global.multiplier = 69 
 global.maxwarn = '2' 
 global.eror = '```404 error```'
-//💌------------------------------------------💌
+//🧠❄️------------------------------------------🧠❄️
 
 
 dotenv.config()

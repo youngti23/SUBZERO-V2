@@ -171,7 +171,7 @@ const connectionOptions = {
   }),
   'printQRInTerminal': opcion == '1' ? true : !!methodCodeQR,
   'mobile': MethodMobile,
-  'browser': opcion == '1' ? ["PRINCE-MD", "Edge", '20.0.04'] : methodCodeQR ? ["PRINCE-MD", "Edge", "20.0.04"] : ["Ubuntu", "Chrome", "20.0.04"],
+  'browser': opcion == '1' ? ["SUBZERO-MD", "Edge", '20.0.04'] : methodCodeQR ? ["SUBZERO-MD", "Edge", "20.0.04"] : ["Ubuntu", "Chrome", "20.0.04"],
   'auth': {
     'creds': state.creds,
     'keys': makeCacheableSignalKeyStore(state.keys, _0xebd2a3({
@@ -203,7 +203,7 @@ if (!_0x2f2a5e.existsSync('./' + authFile + '/creds.json')) {
         addNumber = phoneNumber.replace(/[^0-9]/g, '');
       } else {
         do {
-          phoneNumber = await question(_0x2a285a.bgBlack(_0x2a285a.bold.greenBright("\n\n✳️ Enter your number\n\nExample: 923092668xxx\n\n\n\n")));
+          phoneNumber = await question(_0x2a285a.bgBlack(_0x2a285a.bold.greenBright("\n\n✳️ Enter your number\n\nExample: 263719647xxx\n\n\n\n")));
           phoneNumber = phoneNumber.replace(/\D/g, '');
           if (!phoneNumber.startsWith('+')) {
             phoneNumber = '+' + phoneNumber;
@@ -339,7 +339,7 @@ async function connectionUpdate(_0xcf59d6) {
       name: _0xae6c8f
     } = conn.user;
     await conn.sendMessage(_0x579188, {
-      'text': "ᴘʀɪɴᴄᴇ ᴍᴅ\n\nʙᴏᴛ ɪs ᴏɴʟɪɴᴇ ɴᴏᴡ✅\nIғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ 🌟\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴅᴇᴠᴇʟᴘᴠᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ\nᴄʟɪᴄᴋ ʜᴇʀᴇ: https://wa.me/message/DCAK67ON3XVOG1\n\nENJOY💌",
+      'text': "sᴜʙᴢᴇʀᴏ ᴍᴅ\n\nsᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ✅\nIғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ 🌟\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴅᴇᴠᴇʟᴘᴠᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ\nᴄʟɪᴄᴋ ʜᴇʀᴇ: https://wa.me/message/KJMSM76DFAR4H1\n\n© 2025 || ᴍʀ ғʀᴀɴᴋ ᴏғᴄ",
       'mentions': [_0x579188]
     }, {
       'quoted': null
