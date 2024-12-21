@@ -12,7 +12,7 @@ Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=
             alt="SUBZERO" 
             width="700" 
             height="400" 
-            src="https://i.postimg.cc/9fVpSkn7/IMG-20241213-WA0012.jpg" 
+            src="https://i.postimg.cc/rp16tw7Q/Prince.jpg" 
             style="border: 3px solid #000; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;"
             onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.4)';"
             onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.3)';"
