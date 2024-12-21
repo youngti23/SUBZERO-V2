@@ -1,4 +1,4 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+// SUBZERO PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
 
 import { promises } from 'fs';
 import { join } from 'path';
@@ -36,7 +36,7 @@ let handler = async (_0xb33ad2, {
 }) => {
   let _0x4ca52b = ucapan();
   const _0x170f1d = {
-    'before': (" `▢ *❄SUBZERO MD COMMANDS❄* ▢`\n \n*Hey!* 👋🏻 *%name*\n \n \n*• DATE:*  ```%fecha```\n*• TIME:*  ```%hora (🇿🇼)``` \n*• UPTIME:*  ```%muptime```\n\n\  \n│  \n├ ✧ ⛪ *" + _0x2867e9 + "Biblemenu*  \n├ ✧ 📚 *" + _0x2867e9 + "Studymenu*  \n├ ✧ 👑 *" + _0x2867e9 + "Ownermenu*  \n├ ✧ 💌 *" + _0x2867e9 + "Botmenu*  \n├ ✧ 🧬 *" + _0x2867e9 + "Groupmenu*  \n├ ✧ 📥 *" + _0x2867e9 + "DLmenu*  \n├ ✧ 🧰 *" + _0x2867e9 + "Toolsmenu*  \n├ ✧ 🎨 *" + _0x2867e9 + "Stickermenu*  \n├ ✧ 🎉 *" + _0x2867e9 + "Funmenu*  \n├ ✧ 🎮 *" + _0x2867e9 + "Gamemenu*  \n├ ✧ 🎩 *" + _0x2867e9 + "Logomenu*  \n├ ✧ 📃 *" + _0x2867e9 + "list*\n├ ✧ 📜 *" + _0x2867e9 + "Menu2*    \n│  \n└───────── ★ ★ ★「 *`%botname`* 」 \n%readmore\n").trimStart(),
+    'before': (" `▢ ❄SUBZERO MD COMMANDS❄ ▢`\n \n*Hey!* 👋🏻 *%name*\n \n \n*• DATE:*  ```%fecha```\n*• TIME:*  ```%hora (🇿🇼)``` \n*• UPTIME:*  ```%muptime```\n\n\  \n⟣━━━━━━━━━━━━━━━━━━━⟢%readmore \n├ ✧ ⛪ *" + _0x2867e9 + "Biblemenu*  \n├ ✧ 📚 *" + _0x2867e9 + "Studymenu*  \n├ ✧ 👑 *" + _0x2867e9 + "Ownermenu*  \n├ ✧ 💌 *" + _0x2867e9 + "Botmenu*  \n├ ✧ 🧬 *" + _0x2867e9 + "Groupmenu*  \n├ ✧ 📥 *" + _0x2867e9 + "DLmenu*  \n├ ✧ 🧰 *" + _0x2867e9 + "Toolsmenu*  \n├ ✧ 🎨 *" + _0x2867e9 + "Stickermenu*  \n├ ✧ 🎉 *" + _0x2867e9 + "Funmenu*  \n├ ✧ 🎮 *" + _0x2867e9 + "Gamemenu*  \n├ ✧ 🎩 *" + _0x2867e9 + "Logomenu*  \n├ ✧ 📃 *" + _0x2867e9 + "list*\n├ ✧ 📜 *" + _0x2867e9 + "Menu2*    \n│  \n└───────── ★ ★ ★「 *`%botname`* 」 \n%readmore\n").trimStart(),
     'header': "*`✲ %category`*",
     'body': "╠ ▢ *%cmd* %islimit %isPremium",
     'footer': "╚══════════◈ \n\n",
