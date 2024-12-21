@@ -1,9 +1,9 @@
 {
-  "name": "PRINCEMD",
+  "name": "SUBZERO-V2",
   "description": "whatsapp user bot",
-  "repository": "https://github.com/DASTAGHIR/PRINCEMD",
+  "repository": "https://github.com/mrfrank-ofc/SUBZERO-V2",
   "logo": "https://qu.ax/igJFS.png",
-  "success_url": "https://github.com/DASTAGHIR/PRINCEMD",
+  "success_url": "https://github.com/mrfrank-ofc/SUBZERO-V2",
   "keywords": [
     "nodejs", "heroku", "bot", "urdu", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
     "termux", "superbot", "multi-device", "md", "official", "javascript", "princebot"
@@ -19,12 +19,12 @@
     "BOT_NAME": {
       "description": "put your BOT a name",
       "required": true,
-      "value": "PRINCE-MD"
+      "value": "SUBZERI-MD"
     },
     "OWNER_NUMBER": {
       "description": "put your Number and name for Owner",
       "required": true,
-      "value": "923092668108;❣️DASTAGEER"
+      "value": "263719647303;❣️MR FRANJ"
     },
     "MODE": {
       "description": "choose bot mode public or private",
@@ -34,7 +34,7 @@
     "PREFIX": {
       "description": "put any one symbol here leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": "" 
+      "value": "." 
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
@@ -44,7 +44,7 @@
     "DATABASE_URL": {
       "description": "put mongodb or postgres or princedb database url for bots better performance",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://darexmucheri:cMd7EoTwGglJGXwR@cluster0.uwf6z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "ANTI_LINK": {
       "description": "it will dlt links and kick user",
@@ -79,7 +79,7 @@
     "PACK_NAME": {
       "description": "put your stickers pack name",
       "required": false,
-      "value": "Princebot🎗️❣️"
+      "value": "SUBZERO MD V2"
     },
     "DL_MSG": {
       "description": "Video downloader caption",
