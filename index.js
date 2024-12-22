@@ -1,3 +1,22 @@
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
+
+
+
 import { join, dirname } from 'path';
 import { createRequire } from 'module';
 import { fileURLToPath } from 'url';
@@ -23,7 +42,7 @@ const port = process.env.PORT || 5000;
 app.use(express.static(path.join(__dirname, 'lib/source')));
 
 app.get('/', (req, res) => {
-  res.redirect('/prince.html');
+  res.redirect('/subzero.html');
 });
 
 app.listen(port, () => {
@@ -117,11 +136,11 @@ async function start(file) {
 ┊${chalk.blueBright('┊')}${chalk.yellow(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🟢INFORMATION:`)}
+┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🇿🇼INFORMATION:`)}
 ┊${chalk.blueBright('┊')} ${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Name: ${packageJsonObj.name}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`💫 Version: ${packageJsonObj.version}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`💜 Description: ${packageJsonObj.description}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`❄️ Name: ${packageJsonObj.name}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`♻️ Version: ${packageJsonObj.version}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`ℹ️ Description: ${packageJsonObj.description}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`💎 Project Author: ${packageJsonObj.author.name} (Mr Frank❣️)`)}
 ┊${chalk.blueBright('┊')}${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}

@@ -1,3 +1,23 @@
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
+
+
+
+
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -133,7 +153,7 @@ global.packname = process.env.PACK_NAME
 global.author = '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐕2 』' 
 global.princeig = 'https://www.instagram.com/mrfrankofc' 
 global.princegp = 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D'
-global.menuvid = 'https://imgur.com/a/b1dMEJS'
+global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/mrfrank-ofc/SUBZERO-V2' 
 global.princeyt = 'https://youtube.com/'
 global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'

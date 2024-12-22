@@ -1,4 +1,20 @@
-// SUBZERO PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
+
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 import './config.js';
@@ -240,7 +256,7 @@ if (opts.server) {
 }
 function runCleanup() {
   _0x1c4336().then(() => {
-    console.log("┏━━━━━━⪻♻️ AUTO-CLEAR 🗑️⪼━━━━━━•");
+    console.log("┏━━━━━━⪻♻️SUBZERO AUTO-CLEAR 🗑️⪼━━━━━━•");
   })['catch'](_0x25f382 => {
     console.error("Error during temporary file cleanup:", _0x25f382);
   })["finally"](() => {
