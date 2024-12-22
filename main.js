@@ -1,4 +1,4 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+// SUBZERO PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 import './config.js';
@@ -339,7 +339,7 @@ async function connectionUpdate(_0xcf59d6) {
       name: _0xae6c8f
     } = conn.user;
     await conn.sendMessage(_0x579188, {
-      'text': "sᴜʙᴢᴇʀᴏ ᴍᴅ\n\nsᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ✅\nIғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ 🌟\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴅᴇᴠᴇʟᴘᴠᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ\nᴄʟɪᴄᴋ ʜᴇʀᴇ: https://wa.me/message/KJMSM76DFAR4H1\n\n© 2025 || ᴍʀ ғʀᴀɴᴋ ᴏғᴄ",
+      'text': "ＳＵＢＺＥＲＯ Ｖ2\n\nsᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇᴘʟᴏʏᴇᴅ✅\nIғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ 🌟\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ\n\nᴄʟɪᴄᴋ ʜᴇʀᴇ: https://wa.me/message/KJMSM76DFAR4H1\n\n© 2025 || ᴍʀ ғʀᴀɴᴋ ᴏғᴄ",
       'mentions': [_0x579188]
     }, {
       'quoted': null
