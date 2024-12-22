@@ -27,9 +27,9 @@ const handler = async (_0x38e9da, {
   text: _0x4de361,
   usedPrefix: _0x4e04ab
 }) => {
-  if (_0x53700a == 'play' || _0x53700a == "music") {
+  if (_0x53700a == 'play' || _0x53700a == "song") {
     if (!_0x4de361) {
-      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "* Enter The  Song Name e.g I love you Mr Frank");
+      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Bardo jholi meri Tahir Qadri Naat...");
     }
     const _0x467832 = await search(_0x4f953c.join(" "));
     const _0x4f0037 = ("📌 *" + mssg.title + "* : " + _0x467832[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x467832[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x467832[0x0].duration.seconds) + "\n\n_*The Audio 🔊 is downloading, wait a moment....*_\n\n> _*If this command fails to use the follow you way:*_ #play4 " + _0x467832[0x0].url).trim();
@@ -121,7 +121,7 @@ const handler = async (_0x38e9da, {
   }
   if (_0x53700a == 'play2' || _0x53700a == 'video') {
     if (!_0x4de361) {
-      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Enter Song Name*");
+      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Bardo jholi meri Tahir Qadri Naat...");
     }
     const _0x3ce379 = await search(_0x4f953c.join(" "));
     const _0x73d887 = ("📌 *" + mssg.title + "* : " + _0x3ce379[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x3ce379[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x3ce379[0x0].duration.seconds) + "\n\n_*Downloading your videos, wait a moment....*_\n\n> _*If this command fails to use the follow you way:*_ #ytmp4 " + _0x3ce379[0x0].url).trim();
@@ -272,12 +272,12 @@ const handler = async (_0x38e9da, {
       }
     }
   }
-  if (_0x53700a == 'song' || _0x53700a == 'playdoc') {
+  if (_0x53700a == 'play3' || _0x53700a == 'playdoc') {
     if (!_0x4de361) {
-      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*Enter Song Name..");
+      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Bardo jholi meri Tahir Qadri Naat...");
     }
     const _0x356081 = await search(_0x4f953c.join(" "));
-    const _0x4f794a = ("📌 *" + mssg.title + "* : " + _0x356081[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x356081[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x356081[0x0].duration.seconds) + "\n\n*ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...*\n\n> *ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ:\n\nhttps://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D* ;
+    const _0x4f794a = ("📌 *" + mssg.title + "* : " + _0x356081[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x356081[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x356081[0x0].duration.seconds) + "\n\n_*Downloading the audio 🔊 in documents, please wait a moment....*_\n\n> _*Si este comando falla usar de la seguirte manera:*_ #ytmp3doc " + _0x356081[0x0].url).trim();
     await _0x13077c.sendFile(_0x38e9da.chat, _0x356081[0x0].thumbnail, "error.jpg", _0x4f794a, _0x38e9da, null);
     try {
       const _0x1cf8c6 = "https://deliriussapi-oficial.vercel.app/download/ytmp4?url=" + encodeURIComponent(_0x356081[0x0].url);
@@ -372,7 +372,7 @@ const handler = async (_0x38e9da, {
   }
   if (_0x53700a == 'play4' || _0x53700a == "playdoc2") {
     if (!_0x4de361) {
-      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Enter Song Name.");
+      return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Bardo jholi meri Tahir Qadri Naat...");
     }
     const _0x32da89 = await search(_0x4f953c.join(" "));
     const _0x148f6d = ("📌 *" + mssg.title + "* : " + _0x32da89[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x32da89[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x32da89[0x0].duration.seconds) + "\n\n_*Downloading your video in document, wait a moment please....*_\n\n> _*If this command fails to use the follow you way:*_ #ytmp4doc " + _0x32da89[0x0].url).trim();
