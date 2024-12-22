@@ -505,10 +505,10 @@ break
 		  
 default:
      if (!/[01]/.test(command)) return m.reply(`
-━━━━━━━━━━━━━【 *⚙️ BOT SETTINGS* ⚙️ 】━━━━━━━━━━━━━
+━━━━━━━━【 *⚙️ SUBZERO SETTINGS* ⚙️ 】━━━━━━━━
                 *✨ Toggle Features ✨*
 
-╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
+╭━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━╮
 
 🔒 *\`${usedPrefix + command} public\`*  
    ➤ Switch bot between private and public mode
@@ -552,7 +552,7 @@ default:
 🔐 *\`${usedPrefix + command} restrict\`*  
    ➤ Restrict features like antilinkall
 
-╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
+╭━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━╮
 
 🌟 *\`${usedPrefix + command} welcome\`*  
    ➤ Send welcome and goodbye messages
@@ -613,15 +613,15 @@ default:
 
 > ⚠️ *Bot automatically removes violators* ⚠️
 
-╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
+╭━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━╮
 
 🗨️ *\`${usedPrefix + command} chatbot\`*  
    ➤ Start a conversation with the bot
 
-🤖 *\`${usedPrefix + command} subzerochat\`* or *\`${usedPrefix}suhzerogpt\`*  
+🤖 *\`${usedPrefix + command} subzerochat\`* or *\`${usedPrefix}subzerogpt\`*  
    ➤ Chat with SubZero (ask anything!)
 
-━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
+━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━
 
    To toggle features, use *\`${usedPrefix}on\`* or *\`${usedPrefix}off\`*:
 
