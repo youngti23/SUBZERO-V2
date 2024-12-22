@@ -3,7 +3,7 @@
 
 
 ---
-Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=🥰+**HELLO**+❣️+**EVERYONE**+👋🏻;😍+**WELCOME+TO+SUBZERO+MD+V2**+💙;🔥+**THE+ULTIMATE+WHATSAPP+BOT+EXPERIENCE!**;🎉+**ENJOY+UNLIMITED+FEATURES+AND+COMMANDS!**;💡+**FAST+%7C+RELIABLE+%7C+USER-FRIENDLY+BOT!**;✨+**LET'S+GET+STARTED!**)
+
 
 
 <div align="center" style="margin: 20px; font-family: Arial, sans-serif;">
@@ -85,37 +85,6 @@ Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=
 
 ---
 
-🔥 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝙈𝘿 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-
-🔹 𝙌𝙐𝙍𝘼𝙉 𝙈𝙀𝙉𝙐
-
-🔹 𝘼𝙇𝙇 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 𝘾𝙈𝘿𝙎
-
-🔹 𝘼𝙇𝙇 𝘼𝙄 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎
-
-🔹 𝙎𝙏𝙐𝘿𝙔 𝙈𝙀𝙉𝙐
-
-🔹 𝘼𝙐𝙏𝙊𝙍𝙀𝘼𝘾𝙏𝙄𝙊𝙉
-
-🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎𝙑𝙄𝙀𝙒 & 𝙇𝙄𝙆𝙀𝙎
-
-🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝘼𝙑𝙀
-
-🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙍𝙀𝙋𝙇𝙔
-
-🔹 𝘼𝙐𝙏𝙊𝙍𝙀𝘼𝘿
-
-🔹 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀
-
-🔹 𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆
-
-🔹 𝘼𝙉𝙏𝙄𝙎𝙋𝘼𝙈
-
-🔹 𝘼𝙉𝙏𝙄 𝙃𝙀𝙍𝙊𝙆𝙐 𝘽𝘼𝙉
-
-🔹 𝘼𝙇𝙇 𝙊𝙁 𝙔𝙊𝙐𝙍 𝙉𝙀𝙀𝘿𝙎 𝙄𝙉 𝙊𝙉𝙀 𝘽𝙊𝙏
-
-
 
 ---
     
@@ -124,10 +93,10 @@ Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=
 <div align="center">
     <a href="https://gd-sdeploy.vercel.app/">
         <img height="30" title="Heroku" src="https://img.shields.io/badge/𝗛𝗘𝗥𝗢𝗞𝗨-9966CC?style=for-the-badge&logo=render">
-    </a>
+    </a><br><br>
     <a href="https://repl.it/github/mrfrank-ofc/SUBZERO-V2">
         <img height="30" title="Replit" src="https://img.shields.io/badge/𝗥𝗘𝗣𝗟𝗜𝗧-orange?style=for-the-badge&logo=replit">
-    </a>
+    </a><br><br>
     <a href="https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Fmrfrank-ofc%2FSUBZERO-V2">
         <img height="30" title="Render" src="https://img.shields.io/badge/𝗥𝗘𝗡𝗗𝗘𝗥-E6E6FA?style=for-the-badge&logo=render">
     </a>
