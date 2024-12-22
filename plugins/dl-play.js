@@ -27,7 +27,7 @@ const handler = async (_0x38e9da, {
   text: _0x4de361,
   usedPrefix: _0x4e04ab
 }) => {
-  if (_0x53700a == 'play' || _0x53700a == "song") {
+  if (_0x53700a == 'play3' || _0x53700a == "song3") {
     if (!_0x4de361) {
       return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Enter Name of Song or Video!");
     }
@@ -279,12 +279,13 @@ const handler = async (_0x38e9da, {
   
   //333333333333333333332
   
-  if (_0x53700a == 'play3' || _0x53700a == 'playdoc') {
+  if (_0x53700a == 'song' || _0x53700a == 'play') {
     if (!_0x4de361) {
       return _0x38e9da.reply(mssg.example + "   *" + _0x4e04ab + _0x53700a + "*  Enter Name of Song or Video!");
     }
     const _0x356081 = await search(_0x4f953c.join(" "));
-    const _0x4f794a = ("📌 *" + mssg.title + "* : " + _0x356081[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x356081[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x356081[0x0].duration.seconds) + "\n\n_*Downloading the audio 🔊 in documents, please wait a moment....*_\n\n> _*Si este comando falla usar de la seguirte manera:*_ #ytmp3doc " + _0x356081[0x0].url).trim();
+    const _0x4f794a = ("📌 *" + mssg.title + "* : " + _0x356081[0x0].title + "\n📆 *" + mssg.aploud + ":* " + _0x356081[0x0].ago + "\n⌚ *" + mssg.duration + ":* " + secondString(_0x356081[0x0].duration.seconds) + "\n\n*sᴜʙᴢᴇʀᴏ ᴠ2 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..*\n\n━━━━━━━━━━━━━━━━━\n > *ᴏᴜʀ ᴄʜᴀɴɴᴇʟ:*
+https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D\n━━━━━━━━━━━━━━━━━\n\n #ytmp3doc " + _0x356081[0x0].url).trim();
     await _0x13077c.sendFile(_0x38e9da.chat, _0x356081[0x0].thumbnail, "error.jpg", _0x4f794a, _0x38e9da, null);
     try {
       const _0x1cf8c6 = "https://deliriussapi-oficial.vercel.app/download/ytmp4?url=" + encodeURIComponent(_0x356081[0x0].url);
