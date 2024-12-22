@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://readme-typing-svg.demolab.com/?lines=SUBZERO %20ULTRA%20%20VERSION%202.0%20WHATSAPP%20BOT&font=Fira%20Code&center=true&width=440&height=45&color=6495ED&vCenter=true&pause=1000&size=22" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=SUBZERO %20ULTRA%20%20VERSION%202.0%20W.A%20BOT&font=Fira%20Code&center=true&width=440&height=45&color=6495ED&vCenter=true&pause=1000&size=22" />
 </p>
 <br>
 
