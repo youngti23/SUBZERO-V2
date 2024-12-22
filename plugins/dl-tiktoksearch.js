@@ -39,7 +39,7 @@ let handler = async (_0x110710, {
       mediaType: 0x1,
       showAdAttribution: true,
       title: "TikTok Search",
-      body: "Powered by Prince Bot",
+      body: "Powered by Subzero Bot",
       previewType: 0x0,
       thumbnail: null,
       'sourceUrl': "https://example.com"
