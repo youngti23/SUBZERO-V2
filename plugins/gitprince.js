@@ -25,7 +25,7 @@ let handler = async (_0x5cf5e9, {
   _0x5cf5e9.reply("✳️ *Wait, sending repository..*");
   _0x31bdf6.sendFile(_0x5cf5e9.chat, _0x370572, _0x1136a3, null, _0x5cf5e9);
 };
-handler.help = ["gitprince <url>"];
+handler.help = ["gitsubzero <url>"];
 handler.tags = ["downloader"];
 handler.command = ["gitrepo", "gitsubzero"];
 export default handler;
