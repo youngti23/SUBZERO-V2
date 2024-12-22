@@ -1,4 +1,19 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
 
 import 'fs';
 import 'path';
@@ -27,7 +42,7 @@ let handler = async function (_0x5b1b49, {
       let _0x44bc77 = "𝗛𝗘𝗬!👋🏻 *" + _0x516212 + "*                         " + _0x1d182b + "\n\n╭◉🪀 *`𝗦𝗨𝗕𝗭𝗘𝗥𝗢-𝗕𝗢𝗧`*\n💻𝗡𝗔𝗠𝗘: ```" + _0x1886bd.name + "```\n⭐𝗦𝗧𝗔𝗥𝗦: ```" + _0x1886bd.stargazers_count + "```\n💌𝗙𝗢𝗥𝗞𝗦: ```" + _0x1886bd.forks_count + "```\n⏰𝗨𝗣𝗧𝗜𝗠𝗘: ```" + _0x3d2ce5 + "```\n╚•\n 𝗗𝗘𝗩: https://wa.me/263719637303\n╚•\n 𝗨𝗥𝗟: " + _0x1886bd.html_url + "\n╚•\n 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡: ```" + _0x1886bd.description + "```\n╚•";
       await _0x5b1b49.react('✅');
       const _0x437000 = {
-        newsletterJid: "120363199257221654@newsletter",
+        newsletterJid: "120363304325601080@newsletter",
         newsletterName: global.author,
         serverMessageId: -1
       };
@@ -57,7 +72,7 @@ function clockString(_0xc6fdc4) {
   return [_0x32e553, "d ", _0x19658f, "h ", _0x13f71b, "m ", _0x58be07, "s "].map(_0x2e67b0 => _0x2e67b0.toString().padStart(2, 0)).join('');
 }
 function ucapan() {
-  const _0x31c003 = _0x32d65b.tz('Asia/Karachi').format('HH');
+  const _0x31c003 = _0x32d65b.tz('Africa/Harare').format('HH');
   let _0x2e0db1 = "happy early in the day☀️";
   if (_0x31c003 >= 4) {
     _0x2e0db1 = "𝙂𝙊𝙊𝘿 𝙈𝙊𝙍𝙉𝙄𝙉𝙂 🌥️";

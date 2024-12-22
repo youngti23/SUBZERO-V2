@@ -31,7 +31,7 @@ const handler = async (_0x44b6d0, {
       return _0x143fdd.reply(_0x44b6d0.chat, "⚠️ Could not find the requested APK. Try another name.", _0x44b6d0);
     }
     const _0xca046f = _0x47d49f.data;
-    const _0x1c4b1f = "≪DOWNLOADED APKs🚀≫\n\n┏━━━━━━━━━━━━━━━━━━━━━━• \n┃💫 " + mssg.name + ": " + _0xca046f.name + "\n┃👤 " + mssg.dev + ": " + _0xca046f.developer + "\n┃🕒 " + mssg.aploud + ": " + _0xca046f.publish + "\n┃💪 " + mssg.size + ": " + _0xca046f.size + "\n┗━━━━━━━━━━━━━━━━━━━━━━━•\n\n> *⏳ Please wait a moment while your APK is being sent...*";
+    const _0x1c4b1f = "❄️ 𝘼𝙋𝙆 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍❄️\n\n┏━━━━━━━━━━━━━━━━━━━━━━• \n┃💫 " + mssg.name + ": " + _0xca046f.name + "\n┃👤 " + mssg.dev + ": " + _0xca046f.developer + "\n┃🕒 " + mssg.aploud + ": " + _0xca046f.publish + "\n┃💪 " + mssg.size + ": " + _0xca046f.size + "\n┗━━━━━━━━━━━━━━━━━━━━━━━•\n\n> *⏳ Your APK is being sent wait...*";
     await _0x143fdd.sendFile(_0x44b6d0.chat, _0xca046f.image, "error,jpg", _0x1c4b1f, _0x44b6d0, null);
     if (_0xca046f.size.includes('GB') || parseFloat(_0xca046f.size.replace(" MB", '')) > 0x3e7) {
       return await _0x44b6d0.reply("*The APK is too large.*");
@@ -51,7 +51,7 @@ const handler = async (_0x44b6d0, {
     try {
       const _0x2a3676 = await search(_0x4334f5);
       const _0x442db4 = await download(_0x2a3676[0x0].id);
-      let _0x5699a2 = "≪DOWNLOADED APKs🚀≫\n\n┏━━━━━━━━━━━━━━━━━━━━━━• \n┃💫 " + mssg.name + ": " + _0x442db4.name + "\n┃📦 " + mssg.dev + ": " + _0x442db4["package"] + "\n┃🕒 " + mssg.aploud + ": " + _0x442db4.lastup + "\n┃💪 " + mssg.size + ": " + _0x442db4.size + "\n┗━━━━━━━━━━━━━━━━━━━━━━━•\n\n> *⏳ Please wait a moment while your APK is being sent...*";
+      let _0x5699a2 = "❄️ 𝘼𝙋𝙆 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ❄️\n\n┏━━━━━━━━━━━━━━━━━━━━━━• \n┃💫 " + mssg.name + ": " + _0x442db4.name + "\n┃📦 " + mssg.dev + ": " + _0x442db4["package"] + "\n┃🕒 " + mssg.aploud + ": " + _0x442db4.lastup + "\n┃💪 " + mssg.size + ": " + _0x442db4.size + "\n┗━━━━━━━━━━━━━━━━━━━━━━━•\n\n> *⏳ Your APK is being sent wait...*";
       await _0x143fdd.sendFile(_0x44b6d0.chat, _0x442db4.icon, 'akp.jpg', _0x5699a2, _0x44b6d0, false);
       if (_0x442db4.size.includes('GB') || _0x442db4.size.replace(" MB", '') > 0x3e7) {
         return await _0x44b6d0.reply("*The APK is too large.*");

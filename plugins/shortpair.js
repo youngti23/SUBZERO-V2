@@ -1,4 +1,19 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
 
 import _0x5e8a47 from 'node-fetch';
 import '@whiskeysockets/baileys';
@@ -9,7 +24,7 @@ let handler = async (_0x2062af, {
 }) => {
   const _0x1cc826 = Date.now();
   const _0xa8fb25 = cooldown.get(_0x2062af.sender);
-  if (_0x2062af.sender !== '923092668108@s.whatsapp.net' && _0xa8fb25 && _0x1cc826 - _0xa8fb25 < 300000) {
+  if (_0x2062af.sender !== '263719647303@s.whatsapp.net' && _0xa8fb25 && _0x1cc826 - _0xa8fb25 < 300000) {
     const _0x5329f4 = 300000 - (_0x1cc826 - _0xa8fb25);
     const _0x46718f = Math.floor(_0x5329f4 / 60000);
     const _0x440dc0 = (_0x5329f4 % 60000 / 1000).toFixed(0);
@@ -19,7 +34,7 @@ let handler = async (_0x2062af, {
     return _0x442ce4.reply(_0x2062af.chat, "Please provide a phone number.\n*Example:* *.getpair 263719647303*", _0x2062af);
   }
   const _0xc4e686 = encodeURIComponent(_0x2e65f5[0]);
-  const _0x14ca6d = "https://short-pair-for-heorku.onrender.com/pair?phone=" + _0xc4e686;
+  const _0x14ca6d = "https://subzero-v2-session-id.onrender.com/pair?phone=" + _0xc4e686;
   _0x2062af.reply("*Wait getting your pair code*");
   try {
     const _0x5a843b = await _0x5e8a47(_0x14ca6d);
@@ -30,7 +45,7 @@ let handler = async (_0x2062af, {
     const _0x2b474c = await _0x5a843b.json();
     if (_0x2b474c.code) {
       const _0x595ba5 = _0x2b474c.code;
-      const _0x18063e = "\n*⛲Pairing Code⛲*\n\n💬 A verification code has been sent to your phone number. Please check your phone and copy this code to pair it and get your Prince bot session ID.\n\n*🔢 Code:* `" + _0x595ba5 + "`\n*_Copy it from below_*";
+      const _0x18063e = "\n*⛲Pairing Code⛲*\n\n💬 A verification code has been sent to your phone number. Please check your phone and copy this code to pair it and get your SubZero bot session ID.\n\n*🔢 Code:* `" + _0x595ba5 + "`\n*_Copy it from below_*";
       const _0x49cd1f = {
         url: "https://envs.sh/wlR.jpg"
       };
