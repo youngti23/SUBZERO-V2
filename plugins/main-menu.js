@@ -170,7 +170,7 @@ let handler = async (_0xb33ad2, {
         'mentionedJid': [_0xb33ad2.sender],
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': '120363199257221654@newsletter',
+          'newsletterJid': 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D',
           'newsletterName': global.author,
           'serverMessageId': -1
         },
