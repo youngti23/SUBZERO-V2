@@ -58,8 +58,8 @@ let handler = async (_0xb33ad2, {
     } = xpRange(_0x51094b, global.multiplier);
     let _0x4717c7 = await _0x1e3ebb.getName(_0xb33ad2.sender);
     let _0x56a4f4 = new Date(new Date() + 3600000);
-    let _0x42f297 = _0x458c1f.tz("Asia/Karachi").format("DD/MM/YYYY");
-    let _0x214d45 = _0x458c1f.tz("Asia/Karachi").format('LT');
+    let _0x42f297 = _0x458c1f.tz("Africa/Harare").format("DD/MM/YYYY");
+    let _0x214d45 = _0x458c1f.tz("Africa/Harare").format('LT');
     const _0x318b14 = {
       quoted: _0xb33ad2,
       contextInfo: {}
@@ -197,7 +197,7 @@ function clockString(_0x328e19) {
   return [_0x519642, _0x5e5422, _0x4ab9fb].map(_0x2b09f8 => _0x2b09f8.toString().padStart(2, 0)).join(':');
 }
 function ucapan() {
-  const _0x11fb89 = _0x458c1f.tz("Asia/Karachi").format('HH');
+  const _0x11fb89 = _0x458c1f.tz("Africa/Harare").format('HH');
   let _0x2c699d = "happy early in the day☀️";
   if (_0x11fb89 >= 4) {
     _0x2c699d = "GOOD MORNING 🌥️";
