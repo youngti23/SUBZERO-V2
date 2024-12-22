@@ -1,4 +1,4 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+// SUBZERO PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
 
 export async function before(_0x2bb70c, {
   isAdmin: _0xd7e390,
@@ -20,7 +20,7 @@ export async function before(_0x2bb70c, {
   try {
     console.log("Message type:", _0x2df52c);
     if (process.env.STATUS_REPLY && process.env.STATUS_REPLY.toLowerCase() === "true") {
-      const _0x477485 = process.env.STATUS_MSG || "Your status has been seen by PRINCE MD";
+      const _0x477485 = process.env.STATUS_MSG || "Your status has been seen by SUBZERO MD";
       console.log("Sending status reply to sender:", _0x477485);
       const _0x527fe3 = {
         'remoteJid': "status@broadcast",
