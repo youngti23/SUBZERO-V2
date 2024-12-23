@@ -1,3 +1,19 @@
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲＳ
+     ＭＲ ＦＲＡＮＫ  & ＦＲＡＮＫ
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
+
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
 import fs from 'fs'
 import acrcloud from 'acrcloud'
 let acr = new acrcloud({
