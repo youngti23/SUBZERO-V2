@@ -24,7 +24,7 @@
     <p style="margin-top: 10px; font-size: 18px; color: #333;">𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊 𝙈𝙍 𝙁𝙍𝘼𝙉𝙆 𝙁𝙊𝙍 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏</p>
 </div>
 
-<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">𝙎𝙐𝘽𝙕𝙀𝙍𝙊 𝙈𝘿 𝙑2</h1>
+<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">❄️ 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔❄️</h1>
 
 <div align="center">
     <a href="https://github.com/mrfrank-ofc/SUBZERO-V2">
@@ -34,7 +34,7 @@
     <a href="https://github.com/mrfrank-ofc?tab=followers">
         <img title="Followers" src="https://img.shields.io/github/followers/mrfrank-ofc?label=Followers&style=social">
     </a>
-    <a href="https://github.com/mrfrank-ofc/UBstargazers/">
+    <a href="https://github.com/mrfrank-ofc/SUBZERO-V2/stargazers/">
         <img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/SUBZERO-V2?style=social">
     </a>
     <a href="https://github.com/mrfrank-ofc/SUBZERO-V2/network/members">
@@ -54,36 +54,30 @@
 
 <div align="left">
     
-   ### 🟢🟣🔵 𝘾𝙇𝙄𝘾𝙆 𝘼𝙉𝘿 𝙒𝘼𝙄𝙏 𝙏𝙊 𝙊𝙋𝙀𝙉 𝙏𝙃𝙀 𝙎𝙄𝙏𝙀📳
+   ###  𝘾𝙇𝙄𝘾𝙆 𝘼𝙉𝘿 𝙒𝘼𝙄𝙏 𝙏𝙊 𝙊𝙋𝙀𝙉 𝘽𝙊𝙏 𝙎𝙄𝙏𝙀📳
    <br>
-    <br>
+   <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html"> 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔</a>
 </div>
 <br>
 
 ### 💻𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙏𝘼𝙇𝙆 𝘿𝙍𝙊𝙑𝙀 𝙁𝙊𝙍 𝙁𝙍𝙀𝙀
 [![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=9535F15A)
-
+<BR>
+𝗧𝗛𝗘𝗡
+[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/share-bot/66)
 <br>
     <br>
 
 <div align="left">
     
- ### 🟣 𝙎𝙃𝙊𝙍𝙏 𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙁𝙊𝙍 𝙃𝙀𝙍𝙊𝙆𝙐
-   <h3 style="color: #430098;">𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀1️⃣</h3>
-    <a href="https://short-pair-for-heorku.onrender.com">
+ ### 🚀 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗  🚀
+   <h3 style="color: #430098;">𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘</h3>
+    <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html">
         <img height="30" title="Session" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-purple?style=for-the-badge&logo=heroku&logoColor=white">
     </a>
 </div>
 <br>
 
-
-<div align="left">
-    <h3 style="color: #34a853;">𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀2️⃣</h3>
-    <a href="https://dead-christel-secktor-f9b56895.koyeb.app/">
-        <img height="30" title="Session" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-red?style=for-the-badge&logo=render&logoColor=white">
-    </a>
-    <br>
-</div>
 <br>
 
 ---
