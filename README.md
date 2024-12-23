@@ -24,7 +24,7 @@
     <p style="margin-top: 10px; font-size: 18px; color: #333;">𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊 𝙈𝙍 𝙁𝙍𝘼𝙉𝙆 𝙁𝙊𝙍 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏</p>
 </div>
 
-<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">❄️ 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔❄️</h1>
+<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">❄️ 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 ❄️</h1>
 
 <div align="center">
     <a href="https://github.com/mrfrank-ofc/SUBZERO-V2">
@@ -54,13 +54,13 @@
 
 <div align="left">
     
-   ###  𝘾𝙇𝙄𝘾𝙆 𝘼𝙉𝘿 𝙒𝘼𝙄𝙏 𝙏𝙊 𝙊𝙋𝙀𝙉 𝘽𝙊𝙏 𝙎𝙄𝙏𝙀📳
+   ###  𝗧𝗔𝗣 𝗕𝗘𝗟𝗢𝗪 𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 📳
    <br>
    <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html"> 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔</a>
 </div>
 <br>
 
-### 💻𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙏𝘼𝙇𝙆 𝘿𝙍𝙊𝙑𝙀 𝙁𝙊𝙍 𝙁𝙍𝙀𝙀
+### 💻 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗧𝗔𝗟𝗞𝗗𝗥𝗢𝗩𝗘
 [![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=9535F15A)
 <BR>
 𝗧𝗛𝗘𝗡
@@ -71,9 +71,9 @@
 <div align="left">
     
  ### 🚀 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗  🚀
-   <h3 style="color: #430098;">𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘</h3>
-    <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html">
-        <img height="30" title="Session" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-purple?style=for-the-badge&logo=heroku&logoColor=white">
+   
+<a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html">
+        <img height="30" title="Session" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-purple?style=for-the-badge&logo=render&logoColor=white">
     </a>
 </div>
 <br>
@@ -85,7 +85,7 @@
 
 ---
     
-### 𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙊𝙋𝙏𝙄𝙊𝙉𝙎
+### 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗢𝗣𝗧𝗜𝗢𝗡𝗦
 </div>
 <div align="center">
     <a href="https://gd-sdeploy.vercel.app/">
@@ -101,11 +101,11 @@
 
 <div align="center">
     
-### 𝙍𝙐𝙉 𝙊𝙉 𝙆𝙊𝙔𝙀𝘽
+### 𝗥𝗨𝗡 𝗢𝗡 𝗞𝗢𝗬𝗘𝗕
 
 <div align="center">
     <p align="center">
-        <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/mrfrank-ofc/SUBZERO-V2&branch=main&name=princegds&builder=dockerfile&env[OWNERS]=923092668108%3B%E2%9D%A3%EF%B8%8FDASTAGEER&env[MODE]=public&env[PREFIX]=&env[antidelete]=false&env[ANTI_LINK]=false&env[AUTOREAD]=false&env[VIEWONCE]=false&env[STATUS_REPLY]=false&env[STATUSLIKES]=true&env[STATUS_MSG]=Your+Status+has+been+seen+by+Prince+bot&env[BOT_NAME]=PRINCE-MD&env[PACK_NAME]=Princebot%F0%9F%8E%97%EF%B8%8F%E2%9D%A3%EF%B8%8F&env[DL_MSG]=_📥--------+*DOWNLOADED+SUCCESSFULLY*+--------📥_&env[STATUSVIEW]=false&env[Status_Saver]=false&env[REJECTSCALLS]=false&env[AutoReaction]=false&env[SESSION_ID]=">
+        <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/mrfrank-ofc/SUBZERO-V2&branch=main&name=subzero-md&builder=dockerfile&env[OWNERS]=263719647303%3B%E2%9D%A3%EF%B8%8FMrFrank&env[MODE]=public&env[PREFIX]=&env[antidelete]=false&env[ANTI_LINK]=false&env[AUTOREAD]=false&env[VIEWONCE]=false&env[STATUS_REPLY]=false&env[STATUSLIKES]=true&env[STATUS_MSG]=Your+Status+has+been+seen+by+Subzero+bot&env[BOT_NAME]=PRINCE-MD&env[PACK_NAME]=SUBZERO-V2%F0%9F%8E%97%EF%B8%8F%E2%9D%A3%EF%B8%8F&env[DL_MSG]=> © SUBZERO-MD&env[STATUSVIEW]=false&env[Status_Saver]=false&env[REJECTSCALLS]=false&env[AutoReaction]=false&env[SESSION_ID]=">
             <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="45"/>
         </a>
     </p>
@@ -113,7 +113,7 @@
 
 <div align="center">
     
-### 🟢 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 𝙇𝙄𝙉𝙆 🟢
+### 🚀 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣🚀
 
 </div>
 
