@@ -61,12 +61,12 @@
 <br>
 
 ### 💻 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗧𝗔𝗟𝗞𝗗𝗥𝗢𝗩𝗘
-𝗖𝗿𝗲𝗮𝘁𝗲 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗲𝗿𝗲.[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=9535F15A)
+<br>𝗖𝗿𝗲𝗮𝘁𝗲 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗲𝗿𝗲.<br>[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=9535F15A)
 <BR>
 𝗧𝗛𝗘𝗡
 <br>
 <br>
-𝗗𝗲𝗽𝗹𝗼𝘆 𝗛𝗲𝗿𝗲
+𝗗𝗲𝗽𝗹𝗼𝘆 𝗛𝗲𝗿𝗲<br>
 [![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/share-bot/66)
 <br>
     <br>
