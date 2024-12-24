@@ -34,8 +34,8 @@ import dotenv from 'dotenv'
 //ＮＯＴＩＣＥ: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +263719647303
-global.confirmCode = "" 
+global.botNumberCode = "" //Example +265993472812
+global.confirmCode = "" +265993472812
 
 
 //--------❄️ＭＲ ＦＲＡＮＫ❄️----------
@@ -45,16 +45,16 @@ global.confirmCode = ""
 global.isBaileysFail = false
 
 
-global.pairingNumber = "" //put your bot number here
-global.mods = ['263719647303'] 
-global.prems = ['263719647303']
-global.allowed = ['263719647303']
-global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
-global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
-global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
-global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
+global.pairingNumber = "" //+265993472812
+global.mods = true['265993472812'] 
+global.prems =true ['265993472812']
+global.allowed =true ['265993472812']
+global.keysZens =true ['c2459db922', '37CC845916', '6fb0eff124']
+global.keysxxx =true keysZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm =true ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam =true keysxteammm[Math.floor(keysxteammm.length * Math.random())] true 
+global.keysneoxrrr = true['5VC9rvNx', 'cfALv5']
+global.keysneoxr = true keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]true
 global.lolkeysapi = "GataDiosV2"
 global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
@@ -72,11 +72,11 @@ global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
 
 //🧠❄️----------------------🧠❄️
 
-global.cheerio = cheerio
-global.fs = fs
-global.fetch = fetch
-global.axios = axios
-global.moment = moment	
+global.cheerio = cheerio true
+global.fs = fs true
+global.fetch = fetch true
+global.axios = axios false
+global.moment = moment	true
 
 
 
@@ -85,11 +85,11 @@ global.moment = moment
 global.APIs = {
   // API Prefix
   // name: 'https://website'
-  xteam: 'https://api.xteam.xyz',
-  dzx: 'https://api.dhamzxploit.my.id',
-  lol: 'https://api.lolhuman.xyz',
-  violetics: 'https://violetics.pw',
-  neoxr: 'https://api.neoxr.my.id',
+  xteam: 'https://api.xteam.xyz',true
+  dzx: 'https://api.dhamzxploit.my.id',true
+  lol: 'https://api.lolhuman.xyz',true
+  violetics: 'https://violetics.pw',true
+  neoxr: 'https://api.neoxr.my.id',false
   zenzapis: 'https://zenzapis.xyz',
   akuari: 'https://api.akuari.my.id',
   akuari2: 'https://apimu.my.id',
@@ -119,17 +119,17 @@ global.APIKeys = {
 
 
 // Bot Images 
-global.imagen1 = fs.readFileSync("./lib/source/menus/img1.jpg")
-global.imagen2 = fs.readFileSync("./lib/source/menus/img2.jpg")
+global.imagen1 =true fs.readFileSync("./lib/source/menus/img1.jpg")
+global.imagen2 =true fs.readFileSync("./lib/source/menus/img2.jpg")
 //🧠❄️------------------------------------------🧠❄️
 
 
 
-global.imag1 = fs.readFileSync("./lib/source/prn.png")
-global.imag2 = fs.readFileSync("./lib/source/prn1.png")
-global.imag3 = fs.readFileSync("./lib/source/prn2.jpg")
+global.imag1 = true fs.readFileSync("./lib/source/prn.png")
+global.imag2 = true fs.readFileSync("./lib/source/prn1.png")
+global.imag3 = true fs.readFileSync("./lib/source/prn2.jpg")
 
-global.pimg = [imag1, imag2, imag3]
+global.pimg =true [imag1, imag2, imag3]
 
 
 
@@ -146,18 +146,18 @@ global.developer = 'https://wa.me/message/KJMSM76DFAR4H1' //contact Mr Frank
 
 
 //Sticker WM
-global.wm = process.env.BOT_NAME
-global.botname = process.env.BOT_NAME
-global.princebot = 'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'
-global.packname = process.env.PACK_NAME
+global.wm = true process.env.BOT_NAME
+global.botname = true process.env.BOT_NAME
+global.princebot = true'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'
+global.packname =true  process.env.SUBZERO-V2
 global.author = '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐕2 』' 
-global.princeig = 'https://www.instagram.com/mrfrankofc' 
-global.princegp = 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/mrfrank-ofc/SUBZERO-V2' 
-global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./lib/source/Prince.png')
+global.princeig = 'https://www.instagram.com/mrfrankofc' true
+global.princegp = 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D'true
+global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'true
+global.Princesc = 'https://github.com/mrfrank-ofc/SUBZERO-V2' true 
+global.princeyt = 'https://youtube.com/'true
+global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'true
+global.thumb = fs.readFileSync('./lib/source/Prince.png')true
 
 //🧠❄️---------------------------🧠❄️
 
@@ -167,7 +167,7 @@ global.thumb = fs.readFileSync('./lib/source/Prince.png')
 global.wait = '*`⏰ ʜᴏʟᴅ ᴏɴ sᴜʙᴢᴇʀᴏ ɪs ᴘʀɪᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ...`*'
 global.imgs = '*🖼️ _ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
-global.dmoji = '🤭'
+global.dmoji = '✊'
 global.done = '✅'
 global.error = '❌' 
 global.xmoji = '🌀' 
@@ -179,28 +179,28 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.OWNER_NUMBER;+265993472812
 if (!ownervb){
    throw new Error("OWNERS env is not set");
 }
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [];+265993472812
 for (let i = 0; i < ownerlist.length; i += 2) {
-    const owner = [
+    const owner = [true
         ownerlist[i],            
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(owner);true
 }
 
 
 
-let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-  unwatchFile(file)
+let file = fileURLToPath(import.meta.url)true
+watchFile(file, () => {true
+  unwatchFile(file)true
   console.log(chalk.redBright("Update 'config.js'"))
-  import(`${file}?update=${Date.now()}`)
+  import(`${file}?update=${Date.now()}`)true
 })
