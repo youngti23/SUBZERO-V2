@@ -58,6 +58,33 @@ bot.testbot = isEnable
 break	
 
 
+case 'statusreply':
+		  case 'replystatus':
+	case 'sreply':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.statusreply = isEnable
+break	
+
+
+
+
+		  
+		  case 'sw':
+		  case 'sview':
+	case 'statusview':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.statusview = isEnable
+break	
+
+
 		  case 'alwaysonline':
 	case 'online':
 isAll = true
@@ -249,6 +276,19 @@ break
       break
 
 
+		  case 'antifake':
+    case 'fake':
+    case 'blockusers':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antifake = isEnable
+      break
+
+
 case 'antideletelinks':
     case 'deletelinks':
     case 'linksdelete':
@@ -426,8 +466,8 @@ break
       chat.chatbot = isEnable
       break
 
-    case 'princechat':
-	case 'princegpt':	  
+    case 'subzerochat':
+	case 'subzerogpt':	  
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
@@ -505,10 +545,10 @@ break
 		  
 default:
      if (!/[01]/.test(command)) return m.reply(`
-━━━━━━━━【 *⚙️ SUBZERO SETTINGS* ⚙️ 】━━━━━━━━
+━━━━━━━━【 *⚙️ SUBZERO BOT SETTINGS* ⚙️ 】━━━━━━━━━━
                 *✨ Toggle Features ✨*
 
-╭━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━╮
+╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
 
 🔒 *\`${usedPrefix + command} public\`*  
    ➤ Switch bot between private and public mode
@@ -521,6 +561,12 @@ default:
 
 🥏 *\`${usedPrefix + command} statussaver\`*  
    ➤ Enable auto statussaver to bot
+
+📩 *\`${usedPrefix + command} statusreply\`*  
+   ➤ Enable auto statusreply to bot
+
+🚀 *\`${usedPrefix + command} statusview\`*  
+   ➤ Enable auto statusview to bot
 
 💻 *\`${usedPrefix + command} alwaysonline\`*  
    ➤ Enable alwaysonline to bot
@@ -552,13 +598,16 @@ default:
 🔐 *\`${usedPrefix + command} restrict\`*  
    ➤ Restrict features like antilinkall
 
-╭━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━╮
+╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
 
 🌟 *\`${usedPrefix + command} welcome\`*  
    ➤ Send welcome and goodbye messages
 
 🖼️ *\`${usedPrefix + command} autosticker\`*  
    ➤ Automatically create stickers from images and videos
+
+🔢 *\`${usedPrefix + command} antifake\`*  
+   ➤ Enable antifake to group
 
 🔍 *\`${usedPrefix + command} detect\`*  
    ➤ Feature coming soon…
@@ -613,15 +662,15 @@ default:
 
 > ⚠️ *Bot automatically removes violators* ⚠️
 
-╭━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━╮
+╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
 
 🗨️ *\`${usedPrefix + command} chatbot\`*  
    ➤ Start a conversation with the bot
 
-🤖 *\`${usedPrefix + command} subzerochat\`* or *\`${usedPrefix}subzerogpt\`*  
-   ➤ Chat with SubZero (ask anything!)
+🤖 *\`${usedPrefix + command} subzerochat\`* or *\`${usedPrefix}princegpt\`*  
+   ➤ Chat with subzerobot (ask anything!)
 
-━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━
+━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
 
    To toggle features, use *\`${usedPrefix}on\`* or *\`${usedPrefix}off\`*:
 
