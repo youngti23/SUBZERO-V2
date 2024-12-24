@@ -45,7 +45,7 @@ global.confirmCode = ""
 global.isBaileysFail = false
 
 
-//global.pairingNumber = "" //put your bot number here
+global.pairingNumber = "" //put your bot number here
 global.mods = ['263719647303'] 
 global.prems = ['263719647303']
 global.allowed = ['263719647303']
