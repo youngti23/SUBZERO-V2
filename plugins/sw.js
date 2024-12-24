@@ -1,92 +1,84 @@
-// PRINCE PROPERTY DON'T TOUCH IT OTHERWISE YOU WILL BE FAMOUS IN THE DEPLOYERS AS A CODE THEIF AND JUNIOR DEVELOPER
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/mrfrank-ofc/SUBZERO-V2
 
-export async function before(_0x35f590, {
-  isAdmin: _0x4ad9a7,
-  isBotAdmin: _0x1003ae
+© Recoding This Script In Unacceptable⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
+
+let processedMessages = new Set();
+let botMessages = new Set();
+export async function before(_0x1f044, {
+  isAdmin: _0x1cf1f7,
+  isBotAdmin: _0x366ae5
 }) {
-  if (!_0x35f590 || _0x35f590.key.remoteJid !== "status@broadcast") {
+  if (!_0x1f044 || _0x1f044.key.remoteJid !== "status@broadcast") {
     return false;
   }
-  let _0xeba1e5 = global.db.data.settings[this.user.jid] || {};
-  if (!_0xeba1e5.statussave) {
-    return false;
-  }
-  this.story = this.story || [];
   const {
-    mtype: _0x4c5eec,
-    sender: _0x41c387
-  } = _0x35f590;
-  console.log("Received message object:", JSON.stringify(_0x35f590, null, 2));
-  if (!_0x41c387) {
-    console.error("Sender is null or undefined");
+    sender: _0x83fed5,
+    mtype: _0x3bb985,
+    key: _0x53355b
+  } = _0x1f044;
+  let _0x444902 = global.db.data.settings[this.user.jid] || {};
+  if (!_0x444902.statusreply) {
+    console.log("Status reply is disabled in bot settings.");
     return false;
   }
-  const _0x42509b = conn.getName(_0x41c387) || "Unknown";
-  console.log("Bot ID:", conn.user.id);
+  if (_0x1f044.fromMe) {
+    console.log("Ignoring bot’s own message.");
+    botMessages.add(_0x53355b.id);
+    return false;
+  }
+  if (_0x1f044.quoted && botMessages.has(_0x1f044.quoted.key.id)) {
+    console.log("Ignoring reaction/reply to bot’s message.");
+    return false;
+  }
+  if (processedMessages.has(_0x53355b.id)) {
+    console.log("Message already processed, skipping...");
+    return false;
+  }
+  if (_0x3bb985 === "reactionMessage") {
+    console.log("Ignoring reaction message.");
+    return false;
+  }
+  if (_0x3bb985 === 'deleteMessage' || _0x3bb985 === "protocolMessage") {
+    console.log("Ignoring delete message.");
+    return false;
+  }
+  processedMessages.add(_0x53355b.id);
   try {
-    let _0x42f35a = '';
-    const _0x50c808 = Buffer.from('QVVUTyBTVEFUVVMgU0FWRVI=', "base64").toString("utf-8");
-    console.log("Message type:", _0x4c5eec);
-    if (_0x4c5eec === 'imageMessage' || _0x4c5eec === 'videoMessage') {
-      _0x42f35a = '*⛲' + _0x50c808 + "⛲*\n*🦚ᴘʀɪɴᴄᴇ ᴍᴅ*\n\n*🩵Status:* " + _0x42509b + "\n*🩵Caption:* " + (_0x35f590.caption || '');
-      await conn.copyNForward(conn.user.id, _0x35f590, true);
-      const _0x3880b6 = {
-        mentions: [_0x41c387]
-      };
-      await this.reply(conn.user.id, _0x42f35a, _0x35f590, _0x3880b6);
-      const _0x14d15b = {
-        'type': _0x4c5eec,
-        quoted: _0x35f590,
-        'sender': _0x41c387,
-        caption: _0x42f35a,
-        'buffer': _0x35f590
-      };
-      this.story.push(_0x14d15b);
-    } else if (_0x4c5eec === "audioMessage") {
-      _0x42f35a = '*⛲' + _0x50c808 + "⛲* \n\n*🩵Status:* " + _0x42509b;
-      await conn.copyNForward(conn.user.id, _0x35f590, true);
-      await this.reply(conn.user.id, _0x42f35a, _0x35f590, {
-        'mimetype': _0x35f590.mimetype
-      });
-      const _0x40c8f9 = {
-        type: _0x4c5eec,
-        'quoted': _0x35f590,
-        sender: _0x41c387,
-        buffer: _0x35f590
-      };
-      this.story.push(_0x40c8f9);
-    } else if (_0x4c5eec === "extendedTextMessage") {
-      _0x42f35a = '*⛲' + _0x50c808 + "⛲*\n\n" + (_0x35f590.text || '');
-      const _0x58c240 = {
-        mentions: [_0x41c387]
-      };
-      await this.reply(conn.user.id, _0x42f35a, _0x35f590, _0x58c240);
-      const _0x5356fd = {
-        type: _0x4c5eec,
-        quoted: _0x35f590,
-        sender: _0x41c387,
-        message: _0x42f35a
-      };
-      this.story.push(_0x5356fd);
-    } else if (_0x35f590.quoted) {
-      await conn.copyNForward(conn.user.id, _0x35f590.quoted, true);
-      await conn.sendMessage(_0x35f590.chat, _0x42f35a, {
-        'quoted': _0x35f590
-      });
-    } else {
-      console.log("Unsupported message type or empty message.");
-      return false;
-    }
-  } catch (_0x42d3de) {
-    console.error("Failed to process message:", _0x42d3de.message || "Unknown error");
-    if (_0x35f590.quoted && _0x35f590.quoted.text) {
-      await _0x35f590.reply(_0x35f590.quoted.text);
-    } else {
-      const _0x2d7dc0 = {
-        mentions: [_0x41c387]
-      };
-      await this.reply(conn.user.id, "Failed to process message: " + (_0x42d3de.message || "Unknown error"), _0x35f590, _0x2d7dc0);
-    }
+    console.log("Processing status reply...");
+    const _0x19471d = process.env.STATUS_MSG || "Your status has been seen by SUBZERO MD";
+    const _0x570bc0 = {
+      remoteJid: 'status@broadcast',
+      'id': _0x53355b.id,
+      participant: _0x83fed5
+    };
+    const _0x53dc31 = {
+      key: _0x570bc0,
+      message: _0x1f044.message
+    };
+    const _0x4a86b8 = {
+      text: _0x19471d
+    };
+    const _0x429597 = {
+      'quoted': _0x53dc31
+    };
+    await conn.sendMessage(_0x83fed5, _0x4a86b8, _0x429597);
+    botMessages.add(_0x53355b.id);
+    console.log("Reply sent successfully.");
+  } catch (_0x559de7) {
+    console.error("Error while processing status reply:", _0x559de7.message || _0x559de7);
   }
   return true;
 }
