@@ -11,64 +11,64 @@
   "image": "heroku/nodejs",
   "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {Subzero~DYpnjD6a#f63XjvJZRTiHeTq-R1Y7zPVSIyWq1n5qepWQmfZXJu8
       "description": "put your session ID here in the box below",
       "required": true,
       "value": ""
     },
-    "BOT_NAME": {
-      "description": "put your BOT a name",
+    "BOT_NAME": {SUBZERO-V2 
+      "description": "put your BOT a name", SUBZERO-V2 
       "required": true,
       "value": "SUBZERI-MD"
     },
-    "OWNER_NUMBER": {
-      "description": "put your Number and name for Owner",
+    "OWNER_NUMBER": {+265993472812
+      "description": "put your Number and name for Owner",+265993472812 daiz 
       "required": true,
       "value": "263719647303;❣️MR FRANJ"
     },
-    "MODE": {
-      "description": "choose bot mode public or private",
+    "MODE": {true
+      "description": "choose bot mode public or private",true
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "PREFIX": {
       "description": "put any one symbol here leave it Blank if you want to use multiple prefix",
       "required": false,
       "value": "." 
     },
-    "antidelete": {
+    "antidelete": {true
       "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
        },
-    "DATABASE_URL": {
+    "DATABASE_URL": {mongodb
       "description": "put mongodb or postgres or princedb database url for bots better performance",
       "required": false,
       "value": "mongodb+srv://darexmucheri:cMd7EoTwGglJGXwR@cluster0.uwf6z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
-    "ANTI_LINK": {
+    "ANTI_LINK": {true
       "description": "it will dlt links and kick user",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
-    "AutoReaction": {
+    "AutoReaction": {true
       "description": "make it true to react on chats",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
-    "STATUSVIEW": {
+    "STATUSVIEW": {true
       "description": "make it true to auto view status and likes",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
-    "STATUS_REPLY": {
+    "STATUS_REPLY": {true
       "description": "Status reply true false to on off",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
-    "STATUS_MSG": {
+    "STATUS_MSG": {true
       "description": "Status reply msg",
-      "required": false,
+      "required": true,
       "value": "Your Status has been seen by Prince bot"
     },
     "REJECTSCALLS": {
@@ -76,18 +76,18 @@
       "required": false,
       "value": "true"
     },
-    "PACK_NAME": {
+    "PACK_NAME": {anime
       "description": "put your stickers pack name",
       "required": false,
       "value": "SUBZERO MD V2"
     },
-    "DL_MSG": {
+    "DL_MSG": {true
       "description": "Video downloader caption",
       "required": true,
       "value": "_📥*DOWNLOADED SUCCESSFULLY*✅_"
     } 
   },
-  "buildpacks": [
+  "buildpacks": [true
     {
       "url": "heroku/nodejs"
     },
