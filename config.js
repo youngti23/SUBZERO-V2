@@ -1,4 +1,4 @@
-/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+u/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
     ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
     ＳＵＢＺＥＲＯ  ＭＤ ᐯ2
     
@@ -34,7 +34,7 @@ import dotenv from 'dotenv'
 //ＮＯＴＩＣＥ: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +263719647303
+global.botNumberCode = "" //Example:+265993472812
 global.confirmCode = "" 
 
 
@@ -45,10 +45,10 @@ global.confirmCode = ""
 global.isBaileysFail = false
 
 
-//global.pairingNumber = "" //put your bot number here
-global.mods = ['263719647303'] 
-global.prems = ['263719647303']
-global.allowed = ['263719647303']
+//global.pairingNumber = "" //+265993472812
+global.mods = ['265993472812'] 
+global.prems = ['265993472812']
+global.allowed = ['265993472812']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -179,27 +179,27 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.OWNER_NUMBER;+265993472812
 if (!ownervb){
    throw new Error("OWNERS env is not set");
 }
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [];265993472812
 for (let i = 0; i < ownerlist.length; i += 2) {
-    const owner = [
-        ownerlist[i],            
+    const owner = [+265993472812
+        ownerlist[i],  true          
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(owner);true
 }
 
 
 
 let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
+watchFile(file, () => {true
   unwatchFile(file)
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
