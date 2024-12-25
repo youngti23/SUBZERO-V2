@@ -60,7 +60,7 @@
 </div>
 <br>
 <div align="center">
-<a href='panel.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=bot-hosting'/></a>
+<a href='https://github.com/mrfrank-ofc/SUBZERO-V2/archive/refs/heads/main.zip' target="_blank"><img alt='Panel Bot file' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=bot-hosting'/></a>
 </div>
 
 <div align="center">
