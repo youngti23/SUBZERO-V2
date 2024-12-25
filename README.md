@@ -103,8 +103,9 @@
     </a>
 </div>
 <br>
+<center>
 <a href='https://railway.app/new/template?template=https://github.com/mrfrank-ofc/SUHZERO-V2&envs=SESSION_ID,OWNER_NUMBER' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
-
+</center>
 
 <div align="center">
     
