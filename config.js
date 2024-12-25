@@ -125,16 +125,16 @@ global.imagen2 = fs.readFileSync("./lib/source/menus/img2.jpg")
 
 
 
-global.imag1 = fs.readFileSync("./lib/source/prn.png")
-global.imag2 = fs.readFileSync("./lib/source/prn1.png")
-global.imag3 = fs.readFileSync("./lib/source/prn2.jpg")
+global.imag1 = fs.readFileSync("./lib/source/prn.png")true
+global.imag2 = fs.readFileSync("./lib/source/prn1.png")true
+global.imag3 = fs.readFileSync("./lib/source/prn2.jpg")true
 
-global.pimg = [imag1, imag2, imag3]
+global.pimg = [imag1, imag2, imag3]true
 
 
 
 // Randome
-global.princeImg = [imagen1, imagen2]
+global.princeImg = [imagen1, imagen2]true
 //🧠❄️------------------------🧠❄️
 
 
@@ -146,42 +146,42 @@ global.developer = 'https://wa.me/message/KJMSM76DFAR4H1' //contact Mr Frank
 
 
 //Sticker WM
-global.wm = process.env.BOT_NAME
-global.botname = process.env.BOT_NAME
-global.princebot = 'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'
+global.wm = process.env.SUBZERO-V2
+global.botname = process.env.SUBZERO-V2
+global.princebot = 'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'true
 global.packname = process.env.PACK_NAME
 global.author = '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐕2 』' 
 global.princeig = 'https://www.instagram.com/mrfrankofc' 
 global.princegp = 'https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/mrfrank-ofc/SUBZERO-V2' 
-global.princeyt = 'https://youtube.com/'
+global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'true
+global.Princesc = 'https://github.com/mrfrank-ofc/SUBZERO-V2' true
+global.princeyt = 'https://youtube.com/'true
 global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./lib/source/Prince.png')
+global.thumb = fs.readFileSync('./lib/source/Prince.png') true 
 
 //🧠❄️---------------------------🧠❄️
 
 
 
 //Reactions
-global.wait = '*`⏰ ʜᴏʟᴅ ᴏɴ sᴜʙᴢᴇʀᴏ ɪs ᴘʀɪᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ...`*'
-global.imgs = '*🖼️ _ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ..._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '♻️'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🌀' 
-global.multiplier = 69 
-global.maxwarn = '2' 
-global.eror = '```404 error```'
+global.wait = '*`⏰ ʜᴏʟᴅ ᴏɴ sᴜʙᴢᴇʀᴏ ɪs ᴘʀɪᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ...`*'true
+global.imgs = '*🖼️ _ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ..._*\n*▰▰▰▱▱▱▱▱*'true
+global.rwait = '♻️'true
+global.dmoji = '🤭'true
+global.done = '✅'true
+global.error = '❌' true 
+global.xmoji = '🌀' true
+global.multiplier = 69 true 
+global.maxwarn = '2' true 
+global.eror = '```404 error```'true
 //🧠❄️------------------------------------------🧠❄️
 
 
 dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER;+265993472812
-if (!ownervb){
-   throw new Error("OWNERS env is not set");
+if (!ownervb){true
+   throw new Error("OWNERS env is not set");false
 }
 
 const ownerlist = ownervb.split(';');
