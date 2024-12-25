@@ -59,6 +59,8 @@
    <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html"> 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔</a>
 </div>
 <br>
+𝗖𝗟𝗜𝗖𝗞 𝗗𝗘𝗣𝗟𝗢𝗬 𝗙𝗢𝗥 𝗣𝗔𝗡𝗘𝗟 𝗭𝗜𝗣 𝗙𝗜𝗟𝗘
+<BR>
 <div align="center">
 <a href='https://github.com/mrfrank-ofc/SUBZERO-V2/archive/refs/heads/main.zip' target="_blank"><img alt='Panel Bot file' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=bot-hosting'/></a>
 </div>
