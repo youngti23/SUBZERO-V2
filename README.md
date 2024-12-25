@@ -76,7 +76,7 @@
 <br>
 <br>
 𝗗𝗲𝗽𝗹𝗼𝘆 𝗛𝗲𝗿𝗲<br>
-[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/share-bot/66)
+[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/share-bot/71)
 <br>
     <br>
 
