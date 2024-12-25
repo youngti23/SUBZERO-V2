@@ -59,6 +59,12 @@
    <a href="https://mrfrankinc.vercel.app/subzero-md/subzero-server.html"> 𝗦𝗨𝗕𝗭𝗘𝗥𝗢 𝗩2 𝗨𝗟𝗧𝗥𝗔</a>
 </div>
 <br>
+<div align="center">
+<a href='panel.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=bot-hosting'/></a>
+</div>
+
+<div align="center">
+    
 
 ### 💻 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗧𝗔𝗟𝗞𝗗𝗥𝗢𝗩𝗘
 <br>𝗖𝗿𝗲𝗮𝘁𝗲 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗲𝗿𝗲.<br>[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=9535F15A)
@@ -104,7 +110,7 @@
 </div>
 <br>
 <div align="center">
-<a href='https://railway.app/new/template?template=https://github.com/mrfrank-ofc/SUHZERO-V2&envs=SESSION_ID,OWNER_NUMBER' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+<a href='https://railway.app/new/template?template=https://github.com/mrfrank-ofc/SUBZERO-V2&envs=SESSION_ID,OWNER_NUMBER' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
 </div>
 
 <div align="center">
