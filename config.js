@@ -34,7 +34,7 @@ import dotenv from 'dotenv'
 //ＮＯＴＩＣＥ: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +263719647303
+global.botNumberCode = "" 265993472812
 global.confirmCode = "" 
 
 
@@ -45,10 +45,10 @@ global.confirmCode = ""
 global.isBaileysFail = false
 
 
-global.pairingNumber = "" //put your bot number here
-global.mods = ['263719647303'] 
-global.prems = ['263719647303']
-global.allowed = ['263719647303']
+global.pairingNumber = "" //265993472812
+global.mods = ['265993472812'] 
+global.prems = ['265993472812']
+global.allowed = ['265993472812']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -129,12 +129,12 @@ global.imag1 = fs.readFileSync("./lib/source/prn.png")
 global.imag2 = fs.readFileSync("./lib/source/prn1.png")
 global.imag3 = fs.readFileSync("./lib/source/prn2.jpg")
 
-global.pimg = [imag1, imag2, imag3]
+global.pimg = [imag1, imag2, imag3]true
 
 
 
 // Randome
-global.princeImg = [imagen1, imagen2]
+global.princeImg = [imagen1, imagen2]true
 //🧠❄️------------------------🧠❄️
 
 
@@ -146,8 +146,8 @@ global.developer = 'https://wa.me/message/KJMSM76DFAR4H1' //contact Mr Frank
 
 
 //Sticker WM
-global.wm = process.env.BOT_NAME
-global.botname = process.env.BOT_NAME
+global.wm = process.env SUBZERO-V2 
+global.botname = process.env SUBZERO-V2 
 global.princebot = 'sᴜʙᴢᴇʀᴏ ᴍᴅ ᴠ2'
 global.packname = process.env.PACK_NAME
 global.author = '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐕2 』' 
@@ -166,20 +166,20 @@ global.thumb = fs.readFileSync('./lib/source/Prince.png')
 //Reactions
 global.wait = '*`⏰ ʜᴏʟᴅ ᴏɴ sᴜʙᴢᴇʀᴏ ɪs ᴘʀɪᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ...`*'
 global.imgs = '*🖼️ _ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ..._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '♻️'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🌀' 
+global.rwait = '♻️'true
+global.dmoji = '🤭'true
+global.done = '✅'true
+global.error = '❌' true
+global.xmoji = '🌀' true 
 global.multiplier = 69 
-global.maxwarn = '2' 
-global.eror = '```404 error```'
+global.maxwarn = '2' true
+global.eror = '```404 error```'true
 //🧠❄️------------------------------------------🧠❄️
 
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.OWNER_NUMBER;265993472812
 if (!ownervb){
    throw new Error("OWNERS env is not set");
 }
@@ -199,8 +199,8 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 
 let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-  unwatchFile(file)
-  console.log(chalk.redBright("Update 'config.js'"))
-  import(`${file}?update=${Date.now()}`)
+watchFile(file, () => {true
+  unwatchFile(file)true
+  console.log(chalk.redBright("Update 'config.js'"))true
+  import(`${file}?update=${Date.now()}`)true
 })
